@@ -110,7 +110,7 @@ for row in data:
     ]
     all_cuisines.extend(cuisines)
     cuisine = cuisines[0] if cuisines else None
-    icon = to_icon_type(cuisine)
+    icon = to_icon_type(cuisine) or "other"
 
     restaurants.append(
         dict(
