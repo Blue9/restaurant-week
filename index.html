@@ -1,0 +1,101 @@
+<html>
+  <head>
+    <title>Restaurant Week 2023 Map</title>
+    <!-- Leaflet -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.Default.css" />
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="https://unpkg.com/leaflet.markercluster/dist/leaflet.markercluster.js"></script>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+      }
+      #map {
+        height: 100vh;
+        width: 100vw;
+      }
+      .badge {
+        padding: 4px;
+        margin: 2px;
+        display: inline-block;
+        line-height: 1;
+        text-align: center;
+        white-space: nowrap;
+        vertical-align: baseline;
+        border-radius: 0.25rem;
+        background-color: #007bff;
+        color: white;
+      }
+      .marker {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+      }
+      .marker-title {
+        white-space: nowrap;
+        max-width: 200px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        text-shadow: -1px -1px 3px #fff, 1px -1px 3px #fff, -1px 1px 3px #fff, 1px 1px 3px #fff;
+        color: #0e4077;
+      }
+      /* .leaflet-cluster-anim .leaflet-marker-icon,
+      .marker-cluster-small,
+      .marker-cluster-medium,
+      .marker-cluster-large {
+        background-color: rgba(255, 255, 255, 0.5) !important;
+        color: #333 !important;
+        border-radius: 50%;
+        border: 2px solid #333;
+      } */
+      .leaflet-marker-icon span {
+        font-size: 14px;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="map"></div>
+    <script>
+      var map = L.map('map').setView([40.7264, -73.9818], 14)
+
+      // L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/watercolor/{z}/{x}/{y}.jpg', {
+      L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
+        // L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+      }).addTo(map)
+
+      var markers = L.markerClusterGroup({
+        showCoverageOnHover: true,
+        removeOutsideVisibleBounds: true,
+      })
+
+      fetch('/data.json')
+        .then((response) => response.json())
+        .then((data) => {
+          data.forEach((restaurant) => {
+            var images = restaurant.images
+
+            if (restaurant.location) {
+              var badgesHTML = restaurant.tags.map((cat) => `<span class="badge">${cat}</span>`).join('')
+              var popupHTML = `<h2>${restaurant.title}</h2><img src="${images[0]}" width="100%" style="max-heigth: 200px" /><p>${badgesHTML}</p>`
+
+              var marker = L.marker([restaurant.location.lat, restaurant.location.lon], {
+                icon: new L.DivIcon({
+                  className: 'marker',
+                  html: `<div class="marker"><img src="${restaurant.icon}.png" width="30" height="30"/><span class="marker-title">${restaurant.title}</span></div>`,
+                }),
+              })
+              marker.bindPopup(popupHTML, { autoPan: true, keepInView: true })
+              markers.addLayer(marker)
+            } else {
+              console.log(restaurant)
+            }
+          })
+          map.addLayer(markers)
+        })
+    </script>
+  </body>
+</html>
