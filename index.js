@@ -30,12 +30,12 @@ const server = http.createServer((req, res) => {
       })
       break
 
+    case '/asian.png':
     case '/bread.png':
     case '/burger.png':
-    case '/chef.png':
     case '/kebab.png':
     case '/latin.png':
-    case '/asian.png':
+    case '/other.png':
     case '/pizza.png':
       fs.readFile(`./icons${path}`, (err, data) => {
         if (err) {
