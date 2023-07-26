@@ -224,7 +224,7 @@
             var marker = L.marker([restaurant.location.lat, restaurant.location.lon], {
               icon: new L.DivIcon({
                 className: 'marker',
-                html: `<div class="marker"><img src="${restaurant.category}.png" width="30" height="30"/><span class="marker-title">${restaurant.title}</span></div>`,
+                html: `<div class="marker"><img src="/images/${restaurant.category}.png" width="30" height="30"/><span class="marker-title">${restaurant.title}</span></div>`,
               }),
             })
             marker.addEventListener('click', () => {
@@ -246,7 +246,7 @@
           if (restaurant.location) {
             const resultItem = document.createElement('div')
             resultItem.className = 'place-item'
-            resultItem.innerHTML = `<img src="${restaurant.category}.png" width="30" height="30"/> ${restaurant.title}`
+            resultItem.innerHTML = `<img src="/images/${restaurant.category}.png" width="30" height="30"/> ${restaurant.title}`
             resultItem.addEventListener('click', () => {
               map.flyTo([restaurant.location.lat, restaurant.location.lon], map.getMaxZoom())
               if (window.matchMedia('(max-width: 768px)').matches) {

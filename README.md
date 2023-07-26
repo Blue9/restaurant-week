@@ -1,1 +1,1 @@
-`node index.js`
+`npx http-server public/`

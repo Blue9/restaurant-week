@@ -153,5 +153,5 @@ for row in data:
     )
 
 
-with open("./restaurants-clean.json", "w") as f:
+with open("./public/data.json", "w") as f:
     json.dump(restaurants, f, indent=2, sort_keys=False)
