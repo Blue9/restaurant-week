@@ -65,7 +65,7 @@
       .leaflet-bottom.leaflet-left {
         display: flex;
         width: 100%;
-        margin-bottom: 80px;
+        margin-bottom: 20px;
         justify-content: center;
       }
     </style>
@@ -92,12 +92,7 @@
         transform: translateX(0);
         width: 400px;
       }
-      #filter-panel.open.full-width {
-        width: 100%;
-      }
-      #filter-panel-close {
-        align-self: flex-end;
-      }
+
       @media screen and (max-width: 768px) {
         #filter-panel {
           background: rgba(255, 255, 255, 0.9);
@@ -162,19 +157,24 @@
     <!-- close button -->
     <style>
       #filter-panel-close {
+        z-index: 1002;
+        align-self: flex-end;
+        position: sticky;
+        top: 0;
         border: none;
         background: none;
         cursor: pointer;
         color: #007aff;
-        margin: 10px;
+        padding: 20px;
         font-weight: bold;
         font-size: inherit;
+        background: white;
       }
     </style>
   </head>
   <body>
     <div id="map"></div>
-    <div id="filter-panel">
+    <div id="filter-panel" class="open">
       <button id="filter-panel-close">
         <span aria-hidden="true">Done</span>
       </button>
@@ -247,7 +247,7 @@
             resultItem.addEventListener('click', () => {
               map.flyTo([restaurant.location.lat, restaurant.location.lon], map.getMaxZoom())
               if (window.matchMedia('(max-width: 768px)').matches) {
-                document.getElementById('filter-panel').classList.remove('open', 'full-width')
+                document.getElementById('filter-panel').classList.remove('open')
               }
             })
             resultsPanel.appendChild(resultItem)
@@ -279,13 +279,10 @@
           L.DomEvent.on(button, 'click', function () {
             var filterPanel = document.getElementById('filter-panel')
             if (filterPanel.classList.contains('open')) {
-              filterPanel.classList.remove('open', 'full-width')
+              filterPanel.classList.remove('open')
               return
             }
             filterPanel.classList.add('open')
-            if (window.innerWidth <= 600) {
-              filterPanel.classList.add('full-width')
-            }
           })
 
           return button
