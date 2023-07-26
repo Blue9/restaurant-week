@@ -228,7 +228,7 @@
             })
             markers.addLayer(marker)
           } else {
-            console.log(restaurant)
+            console.log('no location found for', restaurant)
           }
         })
         map.addLayer(markers)
@@ -355,7 +355,6 @@
 
           return true
         })
-        console.log(filteredData.length, 'pins')
         renderPins(filteredData)
         renderResultsList(filteredData)
         document.getElementById('filter-count').innerHTML = filteredData.length
@@ -379,7 +378,6 @@
 
           Object.values(allTags).forEach((l) => l.sort())
 
-          console.log(JSON.stringify(allTags, undefined, 2))
           renderTagFilter(allTags, 'tag-filter')
           renderPins(data)
           renderResultsList(data)
