@@ -36,6 +36,9 @@ style.innerHTML = `
   background-position: right .75rem center;
   background-size: 16px 12px;
 }
+.multiselect-dropdown span.placeholder {
+  width: 100%;
+}
 .multiselect-dropdown span.optext, .multiselect-dropdown span.placeholder{
   margin-right:0.5em; 
   margin-bottom:2px;
@@ -43,8 +46,6 @@ style.innerHTML = `
   border-radius: 4px;
   display:inline-block;
   line-height: 2em;
-}
-.multiselect-dropdown span.optext{
   border: 1px solid lightgray;
   border-radius: 4px;
   padding: 1px 0.75em;
@@ -181,17 +182,7 @@ function MultiselectDropdown(options) {
         op.appendChild(newEl('label', { text: o.text }))
 
         op.addEventListener('click', () => {
-          let areAllSelected = Array.from(el.options).every((o) => o.selected)
-          let onlyThisSelected = op.optEl.selected && !areAllSelected
-
-          if (areAllSelected) {
-            Array.from(el.options).forEach((option) => (option.selected = false))
-            op.optEl.selected = true
-          } else if (onlyThisSelected) {
-            Array.from(el.options).forEach((option) => (option.selected = true))
-          } else {
-            op.optEl.selected = !op.optEl.selected
-          }
+          op.optEl.selected = !op.optEl.selected
 
           Array.from(el.options).forEach((option) => {
             option.listitemEl.querySelector('input[type="checkbox"]').checked = option.selected

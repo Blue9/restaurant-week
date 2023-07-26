@@ -156,6 +156,11 @@
         border-bottom: 1px solid #ccc;
         cursor: pointer;
       }
+      #filter-count-container {
+        font-weight: bold;
+        width: 100%;
+        text-align: center;
+      }
     </style>
 
     <!-- close button -->
@@ -182,6 +187,11 @@
       <button id="filter-panel-close">
         <span aria-hidden="true">Done</span>
       </button>
+      <flex id="filter-count-container">
+        Filtered to
+        <span id="filter-count"></span>
+        restaurants
+      </flex>
 
       <div id="filter-panel-content">
         <div id="search-filter">
@@ -315,7 +325,7 @@
             const optionEl = document.createElement('option')
             optionEl.value = value
             optionEl.textContent = value
-            optionEl.selected = true
+            optionEl.selected = false
             selectEl.appendChild(optionEl)
           })
 
@@ -352,14 +362,18 @@
 
           // Tag filters
           for (const tag in filters.tags) {
-            if (!restaurant.tags[tag]) return false
-            if (!filters.tags[tag].some((value) => restaurant.tags[tag].includes(value))) return false
+            if (filters.tags[tag].length > 0) {
+              if (!restaurant.tags[tag]) return false
+              if (!filters.tags[tag].some((value) => restaurant.tags[tag].includes(value))) return false
+            }
           }
 
           return true
         })
+        console.log(filteredData.length, 'pins')
         renderPins(filteredData)
         renderResultsList(filteredData)
+        document.getElementById('filter-count').innerHTML = filteredData.length
       }
 
       // data fetching
@@ -382,9 +396,9 @@
 
           console.log(JSON.stringify(allTags, undefined, 2))
           renderTagFilter(allTags, 'tag-filter')
-
           renderPins(data)
           renderResultsList(data)
+          document.getElementById('filter-count').innerHTML = data.length
           if (window.matchMedia('(min-width: 769px)').matches) {
             document.getElementById('filter-panel').classList.add('open')
           }
