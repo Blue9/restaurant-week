@@ -126,7 +126,10 @@
       .filter {
         flex: 1;
         flex-grow: 1;
-        margin-bottom: 40px;
+        margin-bottom: 20px;
+      }
+      .filter .multiselect-dropdown {
+        margin-top: 10px;
       }
       .filter select {
         width: 100%;
@@ -145,6 +148,17 @@
         box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
         font-size: 16px;
         width: 100%;
+      }
+      #filtered-places {
+        padding: 10px;
+      }
+      .place-item {
+        display: flex;
+        gap: 4px;
+        align-items: center;
+        padding: 10px 0;
+        border-bottom: 1px solid #ccc;
+        cursor: pointer;
       }
     </style>
 
@@ -170,11 +184,17 @@
 
       <div id="filter-panel-content">
         <div id="search-filter">
+          <strong>Keyword filter</strong>
           <input id="search-input" type="text" placeholder="Filter by keyword" />
         </div>
         <div id="tag-filter">
           <!-- Tag checkboxes will be added here dynamically -->
         </div>
+      </div>
+
+      <div id="filtered-places">
+        <h3>Filtered places</h3>
+        <div id="places-list"></div>
       </div>
     </div>
     <script>
@@ -216,6 +236,26 @@
           }
         })
         map.addLayer(markers)
+      }
+
+      // render list
+      function renderResultsList(data) {
+        const resultsPanel = document.getElementById('places-list')
+        resultsPanel.innerHTML = '' // clear the panel first
+        data.forEach((restaurant) => {
+          if (restaurant.location) {
+            const resultItem = document.createElement('div')
+            resultItem.className = 'place-item'
+            resultItem.innerHTML = `<img src="${restaurant.category}.png" width="30" height="30"/> ${restaurant.title}`
+            resultItem.addEventListener('click', () => {
+              map.flyTo([restaurant.location.lat, restaurant.location.lon], map.getMaxZoom())
+              if (window.matchMedia('(max-width: 768px)').matches) {
+                document.getElementById('filter-panel').classList.remove('open', 'full-width')
+              }
+            })
+            resultsPanel.appendChild(resultItem)
+          }
+        })
       }
 
       // filter state
@@ -321,6 +361,7 @@
           return true
         })
         renderPins(filteredData)
+        renderResultsList(filteredData)
       }
 
       // data fetching
@@ -345,6 +386,7 @@
           renderTagFilter(allTags, 'tag-filter')
 
           renderPins(data)
+          renderResultsList(data)
         })
     </script>
 
