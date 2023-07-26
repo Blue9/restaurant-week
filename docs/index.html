@@ -381,6 +381,9 @@
 
           renderPins(data)
           renderResultsList(data)
+          if (window.matchMedia('(max-width: 768px)').matches) {
+            document.getElementById('filter-panel').classList.remove('open')
+          }
         })
     </script>
 
