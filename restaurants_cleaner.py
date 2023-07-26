@@ -2,8 +2,12 @@ import json
 
 ICON_CUISINE_MAP = {
     "pizza": ["Italian", "Pizza"],
-    "burger": [
+    "salad": [
         "American (New)",
+        "Vegetarian",
+        "Vegan",
+    ],
+    "burger": [
         "American (Traditional)",
         "Steakhouse",
         "Burgers",
@@ -54,8 +58,6 @@ ICON_CUISINE_MAP = {
         "Fusion",
         "Southwestern",
         "Dessert",
-        "Vegetarian",
-        "Vegan",
         "Cajun/Creole",
         "Delicatessen",
         "Eastern European",
@@ -153,5 +155,5 @@ for row in data:
     )
 
 
-with open("./public/data.json", "w") as f:
+with open("./docs/data.json", "w") as f:
     json.dump(restaurants, f, indent=2, sort_keys=False)
