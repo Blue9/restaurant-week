@@ -1,1 +1,1 @@
-`npx http-server public/`
+`npx http-server docs/`

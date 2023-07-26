@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.Default.css" />
     <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
     <script src="https://unpkg.com/leaflet.markercluster/dist/leaflet.markercluster.js"></script>
-    <script src="/multiselect-dropdown.js"></script>
+    <script src="multiselect-dropdown.js"></script>
     <style>
       :root {
         --window-height: 100vh;
@@ -65,10 +65,7 @@
       .leaflet-bottom.leaflet-left {
         display: flex;
         width: 100%;
-        margin-bottom: 20px;
-        justify-content: center;
-      }
-      .leaflet-top.leaflet-left {
+        margin-bottom: 80px;
         justify-content: center;
       }
     </style>
@@ -224,7 +221,7 @@
             var marker = L.marker([restaurant.location.lat, restaurant.location.lon], {
               icon: new L.DivIcon({
                 className: 'marker',
-                html: `<div class="marker"><img src="/images/${restaurant.category}.png" width="30" height="30"/><span class="marker-title">${restaurant.title}</span></div>`,
+                html: `<div class="marker"><img src="images/${restaurant.category}.png" width="30" height="30"/><span class="marker-title">${restaurant.title}</span></div>`,
               }),
             })
             marker.addEventListener('click', () => {
@@ -246,7 +243,7 @@
           if (restaurant.location) {
             const resultItem = document.createElement('div')
             resultItem.className = 'place-item'
-            resultItem.innerHTML = `<img src="/images/${restaurant.category}.png" width="30" height="30"/> ${restaurant.title}`
+            resultItem.innerHTML = `<img src="images/${restaurant.category}.png" width="30" height="30"/> ${restaurant.title}`
             resultItem.addEventListener('click', () => {
               map.flyTo([restaurant.location.lat, restaurant.location.lon], map.getMaxZoom())
               if (window.matchMedia('(max-width: 768px)').matches) {
@@ -281,6 +278,10 @@
 
           L.DomEvent.on(button, 'click', function () {
             var filterPanel = document.getElementById('filter-panel')
+            if (filterPanel.classList.contains('open')) {
+              filterPanel.classList.remove('open', 'full-width')
+              return
+            }
             filterPanel.classList.add('open')
             if (window.innerWidth <= 600) {
               filterPanel.classList.add('full-width')
@@ -290,11 +291,7 @@
           return button
         },
       })
-      if (window.matchMedia('(min-width: 769px)').matches) {
-        map.addControl(new FilterButton({ position: 'topleft' }))
-      } else {
-        map.addControl(new FilterButton({ position: 'bottomleft' }))
-      }
+      map.addControl(new FilterButton({ position: 'bottomleft' }))
 
       document.getElementById('filter-panel-close').addEventListener('click', function () {
         document.getElementById('filter-panel').classList.remove('open', 'full-width')
@@ -365,7 +362,7 @@
       }
 
       // data fetching
-      fetch('/data.json')
+      fetch('data.json')
         .then((response) => response.json())
         .then((data) => {
           allData = data
