@@ -60,6 +60,18 @@ const server = http.createServer((req, res) => {
       })
       break
 
+    case '/instagram.svg':
+      fs.readFile(`./icons${path}`, (err, data) => {
+        if (err) {
+          res.writeHead(500)
+          res.end(`Error: ${err.message}`)
+        } else {
+          res.writeHead(200, { 'Content-Type': 'image/svg+xml' })
+          res.end(data)
+        }
+      })
+      break
+
     default:
       res.writeHead(404)
       res.end('Error: Page not found')

@@ -62,6 +62,15 @@
         font-size: 14px;
         font-weight: bold;
       }
+      .leaflet-bottom.leaflet-left {
+        display: flex;
+        width: 100%;
+        margin-bottom: 20px;
+        justify-content: center;
+      }
+      .leaflet-top.leaflet-left {
+        justify-content: center;
+      }
     </style>
 
     <!-- filter -->
@@ -92,12 +101,9 @@
       #filter-panel-close {
         align-self: flex-end;
       }
-      #filter-panel-content {
-        margin-top: 20px;
-      }
       @media screen and (max-width: 768px) {
         #filter-panel {
-          background: rgba(255, 255, 255, 0.69);
+          background: rgba(255, 255, 255, 0.9);
         }
         #filter-panel.open {
           width: 100%;
@@ -128,6 +134,18 @@
       #filter-panel-content {
         padding: 10px;
       }
+      #search-filter {
+        margin-bottom: 20px;
+      }
+      #search-input {
+        padding: 10px;
+        margin: 10px 0;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+        font-size: 16px;
+        width: 100%;
+      }
     </style>
 
     <!-- close button -->
@@ -151,13 +169,11 @@
       </button>
 
       <div id="filter-panel-content">
-        <div id="tag-filter">
-          <h2>Tags</h2>
-          <!-- Tag checkboxes will be added here dynamically -->
+        <div id="search-filter">
+          <input id="search-input" type="text" placeholder="Filter by keyword" />
         </div>
-        <div id="amenities-filter">
-          <h2>Amenities</h2>
-          <!-- Amenities checkboxes will be added here dynamically -->
+        <div id="tag-filter">
+          <!-- Tag checkboxes will be added here dynamically -->
         </div>
       </div>
     </div>
@@ -165,12 +181,12 @@
       // global state
       var filters = {
         tags: {},
-        amenities: {},
+        search: '',
       }
       var allData = []
 
       // map state
-      var map = L.map('map').setView([40.7264, -73.9818], 14)
+      var map = L.map('map').setView([40.7264, -73.9818], 15)
       L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
         attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
       }).addTo(map)
@@ -184,21 +200,16 @@
       function renderPins(data) {
         markers.clearLayers()
         data.forEach((restaurant) => {
-          var images = restaurant.images
-
           if (restaurant.location) {
-            var badgesHTML = Object.values(restaurant.tags)
-              .map((cat) => `<span class="badge">${cat}</span>`)
-              .join('')
-            var popupHTML = `<h2>${restaurant.title}</h2><img src="${images[0]}" width="100%" style="max-heigth: 200px" /><p>${badgesHTML}</p>`
-
             var marker = L.marker([restaurant.location.lat, restaurant.location.lon], {
               icon: new L.DivIcon({
                 className: 'marker',
                 html: `<div class="marker"><img src="${restaurant.category}.png" width="30" height="30"/><span class="marker-title">${restaurant.title}</span></div>`,
               }),
             })
-            marker.bindPopup(popupHTML, { autoPan: true, keepInView: true })
+            marker.addEventListener('click', () => {
+              window.open(restaurant.rw_url, '_blank')
+            })
             markers.addLayer(marker)
           } else {
             console.log(restaurant)
@@ -208,19 +219,25 @@
       }
 
       // filter state
+      document.getElementById('search-input').addEventListener('input', function () {
+        filters.search = this.value.toLowerCase()
+        applyFiltersAndRender()
+      })
       var FilterButton = L.Control.extend({
         onAdd: function () {
           var button = L.DomUtil.create('a')
           button.innerHTML = '&#x1F50D'
-          button.style.textAlign = 'center'
-          button.style.fontSize = '20px'
+          button.style.display = 'flex'
+          button.style.alignItems = 'center'
+          button.style.justifyContent = 'center'
+          button.style.fontSize = '40px'
           button.style.cursor = 'pointer'
-          button.style.width = '34px'
-          button.style.height = '34px'
-          button.style.margin = '0 0 0 10px'
-          button.style.border = '2px solid rgba(0,0,0,0.2)'
+          button.style.width = '60px'
+          button.style.height = '60px'
+          button.style.border = 'none'
           button.style.backgroundColor = 'white'
-          button.style.borderRadius = '4px'
+          button.style.borderRadius = '50%'
+          button.style.boxShadow = '0px 0px 5px 2px rgba(0,0,0,0.3)' // add a drop shadow
 
           L.DomEvent.on(button, 'click', function () {
             var filterPanel = document.getElementById('filter-panel')
@@ -233,7 +250,12 @@
           return button
         },
       })
-      map.addControl(new FilterButton({ position: 'topleft' }))
+      if (window.matchMedia('(min-width: 769px)').matches) {
+        map.addControl(new FilterButton({ position: 'topleft' }))
+      } else {
+        map.addControl(new FilterButton({ position: 'bottomleft' }))
+      }
+
       document.getElementById('filter-panel-close').addEventListener('click', function () {
         document.getElementById('filter-panel').classList.remove('open', 'full-width')
       })
@@ -279,13 +301,25 @@
 
       function applyFiltersAndRender() {
         const filteredData = allData.filter((restaurant) => {
+          // Search filter
+          if (
+            filters.search &&
+            !(
+              restaurant.title.toLowerCase().includes(filters.search) ||
+              restaurant.description?.toLowerCase().includes(filters.search)
+            )
+          ) {
+            return false
+          }
+
+          // Tag filters
           for (const tag in filters.tags) {
             if (!restaurant.tags[tag]) return false
             if (!filters.tags[tag].some((value) => restaurant.tags[tag].includes(value))) return false
           }
+
           return true
         })
-
         renderPins(filteredData)
       }
 
@@ -295,7 +329,6 @@
         .then((data) => {
           allData = data
           var allTags = { Cuisine: [], Cost: [], Type: [], 'Dietary Needs': [], Amenities: [] }
-          var allAmenities = {}
 
           data.forEach((restaurant) => {
             for (const category in restaurant.tags) {
@@ -304,22 +337,9 @@
               }
               allTags[category] = [...new Set([...allTags[category], ...restaurant.tags[category]])]
             }
-
-            for (const type in restaurant.amenities) {
-              if (!allAmenities[type]) {
-                allAmenities[type] = []
-              }
-              const amenity = restaurant.amenities[type]
-              if (Array.isArray(amenity)) {
-                allAmenities[type] = [...new Set([...allAmenities[type], ...amenity])]
-              } else if (!allAmenities[type].includes(amenity)) {
-                allAmenities[type].push(amenity)
-              }
-            }
           })
 
           Object.values(allTags).forEach((l) => l.sort())
-          Object.values(allAmenities).forEach((l) => l.sort())
 
           console.log(JSON.stringify(allTags, undefined, 2))
           renderTagFilter(allTags, 'tag-filter')

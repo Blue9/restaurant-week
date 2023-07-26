@@ -117,11 +117,11 @@ for row in data:
     location = row.get("location")
     description = row.get("summary", "")
     instagram = row.get("instagram")
+    rw_url = f"https://www.nyctourism.com/restaurant-week/{row['slug']}" if "slug" in row else ""
     url = row["websiteUrl"]
     phone = row["phone"]
     twitter = row.get("twitterHandle")
     pinterest = row.get("pinterest")
-    integrations = []
     integrations = {item["fields"]["partnerName"]: item["fields"].get("url") for item in row.get("ecommerce", [])}
     images = [item["fields"]["image"]["fields"]["file"]["url"] for item in row.get("images", [])]
     tags = get_tags(row["secondaryCategories"])
@@ -140,14 +140,15 @@ for row in data:
             price=price,
             category=category,
             instagram=instagram,
+            rw_url=rw_url,
             url=url,
-            phone=phone,
-            twitter=twitter,
-            pinterest=pinterest,
-            integrations=integrations,
-            images=images,
+            # phone=phone,
+            # twitter=twitter,
+            # pinterest=pinterest,
+            # integrations=integrations,
+            # images=images,
             tags=tags,
-            amenities=amenities,
+            # amenities=amenities,
         )
     )
 
