@@ -65,10 +65,44 @@ ICON_CUISINE_MAP = {
 }
 
 
-def to_icon_type(cuisine):
+def to_category(cuisine):
     for icon, cuisines in ICON_CUISINE_MAP.items():
         if cuisine in cuisines:
             return icon
+    return "other"
+
+
+def get_tags(secondaryCategories):
+    tags = {}
+    for item in secondaryCategories:
+        key = item["fields"]["categoryGroupName"]
+        if key in ["Taxonomy", "Location", "Promotion", "Special Designation"]:
+            continue
+        if key not in tags:
+            tags[key] = []
+        tags[key].append(item["fields"]["title"])
+    return tags
+
+
+def get_amenities(b2breferences):
+    flattened = [
+        {
+            "name": amenity["NAME"],
+            "type": amenity["TYPE"],
+            "value": amenity["VALUE"],
+        }
+        for item in b2breferences
+        for amenities in item["fields"]["amenitiesJSON"].values()
+        for amenity in amenities
+    ]
+    amenities = {}
+    for item in flattened:
+        match item["type"]:
+            case "Yes/No":
+                amenities[item["name"]] = bool(item["value"])
+            case "Number" | "Multi-Select" | "Dropdown":
+                amenities[item["name"]] = item["value"]
+    return amenities
 
 
 with open("./restaurants.json") as f:
@@ -76,7 +110,6 @@ with open("./restaurants.json") as f:
 
 data = [item["fields"]["promocodeFor"]["fields"] for item in data]
 restaurants = []
-all_cuisines = []
 
 for row in data:
     title = row["title"]
@@ -91,26 +124,11 @@ for row in data:
     integrations = []
     integrations = {item["fields"]["partnerName"]: item["fields"].get("url") for item in row.get("ecommerce", [])}
     images = [item["fields"]["image"]["fields"]["file"]["url"] for item in row.get("images", [])]
-    tags = [item["fields"]["title"] for item in row["secondaryCategories"]]
-    cuisines = [
-        item["fields"]["title"]
-        for item in row["secondaryCategories"]
-        if item["fields"]["categoryGroupName"] == "Cuisine"
-    ]
-    b2b = row.get("b2breferences", [])
-    amenities = [
-        {
-            "name": amenity["NAME"],
-            "type": amenity["TYPE"],
-            "value": amenity["VALUE"],
-        }
-        for item in b2b
-        for amenities in item["fields"]["amenitiesJSON"].values()
-        for amenity in amenities
-    ]
-    all_cuisines.extend(cuisines)
-    cuisine = cuisines[0] if cuisines else None
-    icon = to_icon_type(cuisine) or "other"
+    tags = get_tags(row["secondaryCategories"])
+    amenities = get_amenities(row.get("b2breferences", []))
+    cuisine = tags["Cuisine"][0]
+    price = tags.get("Cost")
+    category = to_category(cuisine)
 
     restaurants.append(
         dict(
@@ -119,7 +137,8 @@ for row in data:
             location=location,
             description=description,
             cuisine=cuisine,
-            icon=icon,
+            price=price,
+            category=category,
             instagram=instagram,
             url=url,
             phone=phone,

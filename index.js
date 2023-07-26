@@ -30,6 +30,18 @@ const server = http.createServer((req, res) => {
       })
       break
 
+    case '/multiselect-dropdown.js':
+      fs.readFile('./multiselect-dropdown.js', (err, data) => {
+        if (err) {
+          res.writeHead(500)
+          res.end(`Error: ${err.message}`)
+        } else {
+          res.writeHead(200, { 'Content-Type': 'application/javascript' })
+          res.end(data)
+        }
+      })
+      break
+
     case '/asian.png':
     case '/bread.png':
     case '/burger.png':
