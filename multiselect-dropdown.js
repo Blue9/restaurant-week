@@ -21,8 +21,9 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 */
-var style = document.createElement('style')
 
+// CSS Styles
+const style = document.createElement('style')
 style.setAttribute('id', 'multiselect_dropdown_styles')
 style.innerHTML = `
 .multiselect-dropdown{
@@ -116,7 +117,7 @@ input {
 document.head.appendChild(style)
 
 function MultiselectDropdown(options) {
-  var config = {
+  const config = {
     search: true,
     height: '400px',
     placeholder: 'Select',
@@ -126,9 +127,11 @@ function MultiselectDropdown(options) {
     txtSearch: 'Search',
     ...options,
   }
-  function newEl(tag, attrs) {
-    var e = document.createElement(tag)
-    if (attrs !== undefined)
+
+  // Function for creating new HTML element
+  const newEl = (tag, attrs) => {
+    const e = document.createElement(tag)
+    if (attrs !== undefined) {
       Object.keys(attrs).forEach((k) => {
         if (k === 'class') {
           Array.isArray(attrs[k])
@@ -137,13 +140,12 @@ function MultiselectDropdown(options) {
             ? e.classList.add(attrs[k])
             : 0
         } else if (k === 'style') {
-          Object.keys(attrs[k]).forEach((ks) => {
-            e.style[ks] = attrs[k][ks]
-          })
+          Object.keys(attrs[k]).forEach((ks) => (e.style[ks] = attrs[k][ks]))
         } else if (k === 'text') {
           attrs[k] === '' ? (e.innerHTML = '&nbsp;') : (e.innerText = attrs[k])
         } else e[k] = attrs[k]
       })
+    }
     return e
   }
 
@@ -179,14 +181,25 @@ function MultiselectDropdown(options) {
         op.appendChild(newEl('label', { text: o.text }))
 
         op.addEventListener('click', () => {
-          op.classList.toggle('checked')
-          op.querySelector('input').checked = !op.querySelector('input').checked
-          op.optEl.selected = !!!op.optEl.selected
+          let areAllSelected = Array.from(el.options).every((o) => o.selected)
+          let onlyThisSelected = op.optEl.selected && !areAllSelected
+
+          if (areAllSelected) {
+            Array.from(el.options).forEach((option) => (option.selected = false))
+            op.optEl.selected = true
+          } else if (onlyThisSelected) {
+            Array.from(el.options).forEach((option) => (option.selected = true))
+          } else {
+            op.optEl.selected = !op.optEl.selected
+          }
+
+          Array.from(el.options).forEach((option) => {
+            option.listitemEl.querySelector('input[type="checkbox"]').checked = option.selected
+          })
+
           el.dispatchEvent(new Event('change'))
         })
-        ic.addEventListener('click', (ev) => {
-          ic.checked = !ic.checked
-        })
+
         o.listitemEl = op
         list.appendChild(op)
       })

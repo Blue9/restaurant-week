@@ -129,11 +129,27 @@
         padding: 10px;
       }
     </style>
+
+    <!-- close button -->
+    <style>
+      #filter-panel-close {
+        border: none;
+        background: none;
+        cursor: pointer;
+        color: #007aff;
+        margin: 10px;
+        font-weight: bold;
+        font-size: inherit;
+      }
+    </style>
   </head>
   <body>
     <div id="map"></div>
     <div id="filter-panel">
-      <button id="filter-panel-close">Close</button>
+      <button id="filter-panel-close">
+        <span aria-hidden="true">Done</span>
+      </button>
+
       <div id="filter-panel-content">
         <div id="tag-filter">
           <h2>Tags</h2>
