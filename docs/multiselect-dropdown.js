@@ -83,13 +83,6 @@ style.innerHTML = `
   overflow-y: auto;
   overflow-x: hidden;
 }
-.multiselect-dropdown-list::-webkit-scrollbar {
-  width: 6px;
-}
-.multiselect-dropdown-list::-webkit-scrollbar-thumb {
-  background-color: #bec4ca;
-  border-radius:3px;
-}
 .multiselect-dropdown-list div{
   display: flex;
   align-items: center;
@@ -109,10 +102,9 @@ input {
 .multiselect-dropdown-list div.checked{
 }
 .multiselect-dropdown-list div:hover{
-  background-color: #ced4da;
+  background-color: #eee;
 }
 .multiselect-dropdown span.maxselected {width:100%;}
-.multiselect-dropdown-all-selector {border-bottom:solid 1px #999;}
 `
 document.head.appendChild(style)
 

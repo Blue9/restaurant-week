@@ -293,10 +293,10 @@
         document.getElementById('filter-panel').classList.remove('open', 'full-width')
       })
 
-      function renderTagFilter(allTags) {
+      function renderTagFilter(tagsToOptions) {
         const sectionEl = document.getElementById('tag-filter')
 
-        for (const tag in allTags) {
+        for (const tag of Reflect.ownKeys(tagsToOptions)) {
           const divEl = document.createElement('div')
           divEl.classList.add('filter')
           divEl.innerHTML = `<strong>${tag}</strong>`
@@ -306,7 +306,7 @@
           selectEl.multiple = true
           selectEl.setAttribute('multiselect-search', 'true')
           selectEl.setAttribute('multiselect-select-all', 'true')
-          allTags[tag].forEach((value) => {
+          tagsToOptions[tag].forEach((value) => {
             const optionEl = document.createElement('option')
             optionEl.value = value
             optionEl.textContent = value
@@ -361,24 +361,35 @@
       }
 
       // data fetching
-      fetch('data.json')
-        .then((response) => response.json())
-        .then((data) => {
+      let request = fetch('data.json').then((response) => response.json())
+
+      document.addEventListener('DOMContentLoaded', function () {
+        request.then((data) => {
           allData = data
-          var allTags = { Cuisine: [], Cost: [], Type: [], 'Dietary Needs': [], Amenities: [] }
+
+          // Hardcode these to be at the top
+          var uniqueTags = {
+            Cuisine: new Set(),
+            Cost: new Set(),
+            Type: new Set(),
+            'Dietary Needs': new Set(),
+            Amenities: new Set(),
+          }
 
           data.forEach((restaurant) => {
             for (const category in restaurant.tags) {
-              if (!allTags[category]) {
-                allTags[category] = []
+              if (!uniqueTags[category]) {
+                uniqueTags[category] = new Set()
               }
-              allTags[category] = [...new Set([...allTags[category], ...restaurant.tags[category]])]
+              uniqueTags[category].add(...restaurant.tags[category])
             }
           })
 
-          Object.values(allTags).forEach((l) => l.sort())
+          var sortedTags = Object.fromEntries(
+            Object.entries(uniqueTags).map(([tag, options]) => [tag, Array.from(options).sort()])
+          )
 
-          renderTagFilter(allTags, 'tag-filter')
+          renderTagFilter(sortedTags, 'tag-filter')
           renderPins(data)
           renderResultsList(data)
           document.getElementById('filter-count').innerHTML = data.length
@@ -386,6 +397,7 @@
             document.getElementById('filter-panel').classList.add('open')
           }
         })
+      })
     </script>
 
     <script>
