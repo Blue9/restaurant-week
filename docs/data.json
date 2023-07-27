@@ -1,5 +1,39 @@
 [
   {
+    "title": "Trattoria Dell'Arte",
+    "location": {
+      "lon": -73.9805358,
+      "lat": 40.7654454
+    },
+    "description": "A favorite of concert goers at nearby Carnegie Hall, Trattoria Dell'Arte is a design landmark, thanks to an interior done by the legendary Milton Glaser, and a entrance marked by a giant white nose.",
+    "cuisine": "Italian",
+    "price": [
+      "$$$$"
+    ],
+    "category": "pizza",
+    "rw_url": "https://www.nyctourism.com/restaurant-week/trattoria-dellarte",
+    "tags": {
+      "Accessibility": [
+        "Wheelchair Accessible"
+      ],
+      "Cuisine": [
+        "Italian"
+      ],
+      "Dietary Needs": [
+        "Vegetarian Options",
+        "Vegan Options",
+        "Gluten-Free"
+      ],
+      "Additional Information": [
+        "Free WiFi",
+        "Internet"
+      ],
+      "Cost": [
+        "$$$$"
+      ]
+    }
+  },
+  {
     "title": "Rabbit House Omakase & Sake Bar",
     "location": {
       "lon": -73.989636,
@@ -33,6 +67,203 @@
       "Type": [
         "Bar",
         "Sake"
+      ]
+    }
+  },
+  {
+    "title": "Grace Street Cafe",
+    "location": {
+      "lon": -73.9865153,
+      "lat": 40.747819
+    },
+    "description": "Grace Street is a big, open, comfortable coffee and tea house.",
+    "cuisine": "Dessert",
+    "price": [
+      "$"
+    ],
+    "category": "other",
+    "rw_url": "https://www.nyctourism.com/restaurant-week/grace-street-cafe",
+    "tags": {
+      "Accessibility": [
+        "Large Print",
+        "Braille",
+        "Wheelchair Accessible"
+      ],
+      "Ownership": [
+        "Asian American Owned"
+      ],
+      "Cuisine": [
+        "Dessert",
+        "Coffeehouse"
+      ],
+      "Dietary Needs": [
+        "Vegetarian Options",
+        "Vegan Options",
+        "Gluten-Free"
+      ],
+      "Cost": [
+        "$"
+      ],
+      "Amenities": [
+        "Outdoor Dining"
+      ]
+    }
+  },
+  {
+    "title": "Pera Mediterranean Brasserie",
+    "location": {
+      "lon": -73.9794252,
+      "lat": 40.752316
+    },
+    "description": "This gem of a bistro serves innovative interpretations of classic Greek and Turkish dishes in Murray Hill.",
+    "cuisine": "Mediterranean",
+    "price": [
+      "$$$"
+    ],
+    "category": "kebab",
+    "rw_url": "https://www.nyctourism.com/restaurant-week/pera-mediterranean-brasserie",
+    "tags": {
+      "Accessibility": [
+        "Wheelchair Accessible"
+      ],
+      "Cuisine": [
+        "Mediterranean",
+        "Greek",
+        "Turkish"
+      ],
+      "Dietary Needs": [
+        "Vegetarian Options"
+      ],
+      "Additional Information": [
+        "Internet"
+      ],
+      "Cost": [
+        "$$$"
+      ],
+      "Type": [
+        "Live Music"
+      ],
+      "Amenities": [
+        "Private Function Room(s)",
+        "Outdoor Dining"
+      ]
+    }
+  },
+  {
+    "title": "Pera SoHo",
+    "location": {
+      "lon": -74.0032322,
+      "lat": 40.7237889
+    },
+    "description": "Pera SoHo is an eastern Mediterranean retreat inspired by its namesake Istanbul neighborhood.",
+    "cuisine": "Mediterranean",
+    "price": [
+      "$$$"
+    ],
+    "category": "kebab",
+    "rw_url": "https://www.nyctourism.com/restaurant-week/pera-soho",
+    "tags": {
+      "Accessibility": [
+        "Wheelchair Accessible"
+      ],
+      "Cuisine": [
+        "Mediterranean",
+        "Middle Eastern"
+      ],
+      "Dietary Needs": [
+        "Vegetarian Options"
+      ],
+      "Additional Information": [
+        "Internet"
+      ],
+      "Cost": [
+        "$$$"
+      ],
+      "Amenities": [
+        "Private Function Room(s)",
+        "Outdoor Dining"
+      ]
+    }
+  },
+  {
+    "title": "As You Are",
+    "location": {
+      "lon": -73.9837428,
+      "lat": 40.6878222
+    },
+    "description": "As You Are serves New American cuisine as a culinary love story to the neighborhoods of Brooklyn.",
+    "cuisine": "American (New)",
+    "price": [
+      "$$$$"
+    ],
+    "category": "salad",
+    "rw_url": "https://www.nyctourism.com/restaurant-week/as-you-are",
+    "tags": {
+      "Accessibility": [
+        "Large Print",
+        "Wheelchair Accessible"
+      ],
+      "Cuisine": [
+        "American (New)"
+      ],
+      "Cost": [
+        "$$$$"
+      ]
+    }
+  },
+  {
+    "title": "Romeo's Italian Restaurant",
+    "location": {
+      "lon": -73.8910294,
+      "lat": 40.749183
+    },
+    "description": "Romeo's Italian Restaurant offers fine Italian dining in Jackson Heights, Queens.",
+    "cuisine": "Italian",
+    "price": [
+      "$$$$"
+    ],
+    "category": "pizza",
+    "rw_url": "https://www.nyctourism.com/restaurant-week/romeos-italian-restaurant",
+    "tags": {
+      "Accessibility": [
+        "Wheelchair Accessible"
+      ],
+      "Ownership": [
+        "Woman Owned"
+      ],
+      "Cuisine": [
+        "Italian"
+      ],
+      "Cost": [
+        "$$$$"
+      ]
+    }
+  },
+  {
+    "title": "Chez Nick",
+    "location": {
+      "lon": -73.9452127,
+      "lat": 40.7790105
+    },
+    "description": null,
+    "cuisine": "American (New)",
+    "price": [
+      "$$$"
+    ],
+    "category": "salad",
+    "rw_url": "https://www.nyctourism.com/restaurant-week/chez-nick",
+    "tags": {
+      "Accessibility": [
+        "Wheelchair Accessible"
+      ],
+      "Cuisine": [
+        "American (New)"
+      ],
+      "Cost": [
+        "$$$"
+      ],
+      "Amenities": [
+        "Outdoor Dining"
       ]
     }
   },
@@ -123,32 +354,6 @@
       ],
       "Cuisine": [
         "Steakhouse"
-      ],
-      "Cost": [
-        "$$$$"
-      ]
-    }
-  },
-  {
-    "title": "As You Are",
-    "location": {
-      "lon": -73.9837428,
-      "lat": 40.6878222
-    },
-    "description": "As You Are serves New American cuisine as a culinary love story to the neighborhoods of Brooklyn.",
-    "cuisine": "American (New)",
-    "price": [
-      "$$$$"
-    ],
-    "category": "salad",
-    "rw_url": "https://www.nyctourism.com/restaurant-week/as-you-are",
-    "tags": {
-      "Accessibility": [
-        "Large Print",
-        "Wheelchair Accessible"
-      ],
-      "Cuisine": [
-        "American (New)"
       ],
       "Cost": [
         "$$$$"
@@ -367,42 +572,6 @@
         "Gift Cards Available"
       ],
       "Amenities": [
-        "Outdoor Dining"
-      ]
-    }
-  },
-  {
-    "title": "Pera SoHo",
-    "location": {
-      "lon": -74.0032322,
-      "lat": 40.7237889
-    },
-    "description": "Pera SoHo is an eastern Mediterranean retreat inspired by its namesake Istanbul neighborhood.",
-    "cuisine": "Mediterranean",
-    "price": [
-      "$$$"
-    ],
-    "category": "kebab",
-    "rw_url": "https://www.nyctourism.com/restaurant-week/pera-soho",
-    "tags": {
-      "Accessibility": [
-        "Wheelchair Accessible"
-      ],
-      "Cuisine": [
-        "Mediterranean",
-        "Middle Eastern"
-      ],
-      "Dietary Needs": [
-        "Vegetarian Options"
-      ],
-      "Additional Information": [
-        "Internet"
-      ],
-      "Cost": [
-        "$$$"
-      ],
-      "Amenities": [
-        "Private Function Room(s)",
         "Outdoor Dining"
       ]
     }
@@ -1127,46 +1296,6 @@
       ],
       "Cost": [
         "$$$"
-      ]
-    }
-  },
-  {
-    "title": "Pera Mediterranean Brasserie",
-    "location": {
-      "lon": -73.9794252,
-      "lat": 40.752316
-    },
-    "description": "This gem of a bistro serves innovative interpretations of classic Greek and Turkish dishes in Murray Hill.",
-    "cuisine": "Mediterranean",
-    "price": [
-      "$$$"
-    ],
-    "category": "kebab",
-    "rw_url": "https://www.nyctourism.com/restaurant-week/pera-mediterranean-brasserie",
-    "tags": {
-      "Accessibility": [
-        "Wheelchair Accessible"
-      ],
-      "Cuisine": [
-        "Mediterranean",
-        "Greek",
-        "Turkish"
-      ],
-      "Dietary Needs": [
-        "Vegetarian Options"
-      ],
-      "Additional Information": [
-        "Internet"
-      ],
-      "Cost": [
-        "$$$"
-      ],
-      "Type": [
-        "Live Music"
-      ],
-      "Amenities": [
-        "Private Function Room(s)",
-        "Outdoor Dining"
       ]
     }
   },
@@ -3309,8 +3438,19 @@
     "category": "pizza",
     "rw_url": "https://www.nyctourism.com/restaurant-week/pappardella",
     "tags": {
+      "Accessibility": [
+        "Wheelchair Accessible"
+      ],
+      "Ownership": [
+        "Woman Owned"
+      ],
       "Cuisine": [
         "Italian"
+      ],
+      "Dietary Needs": [
+        "Vegetarian Options",
+        "Vegan Options",
+        "Gluten-Free"
       ],
       "Cost": [
         "$$$"
@@ -3827,8 +3967,8 @@
   {
     "title": "Redeye Grill",
     "location": {
-      "lon": -73.9805,
-      "lat": 40.765
+      "lon": -73.9806837,
+      "lat": 40.7651937
     },
     "description": "This cavernous restaurant captures the richness of NYC with a big, inclusive menu that ranges from miso to matzo ball soup and Cobb salad.",
     "cuisine": "American (New)",
@@ -10808,40 +10948,6 @@
     }
   },
   {
-    "title": "Trattoria Dell'Arte",
-    "location": {
-      "lon": -73.9805358,
-      "lat": 40.7654454
-    },
-    "description": "A favorite of concert goers at nearby Carnegie Hall, Trattoria Dell'Arte is a design landmark, thanks to an interior done by the legendary Milton Glaser, and a entrance marked by a giant white nose.",
-    "cuisine": "Italian",
-    "price": [
-      "$$$$"
-    ],
-    "category": "pizza",
-    "rw_url": "https://www.nyctourism.com/restaurant-week/trattoria-dellarte",
-    "tags": {
-      "Accessibility": [
-        "Wheelchair Accessible"
-      ],
-      "Cuisine": [
-        "Italian"
-      ],
-      "Dietary Needs": [
-        "Vegetarian Options",
-        "Vegan Options",
-        "Gluten-Free"
-      ],
-      "Additional Information": [
-        "Free WiFi",
-        "Internet"
-      ],
-      "Cost": [
-        "$$$$"
-      ]
-    }
-  },
-  {
     "title": "Astor Court",
     "location": {
       "lon": -73.9743929,
@@ -10926,34 +11032,6 @@
       "Cost": [
         "$$$",
         "Gift Cards Available"
-      ],
-      "Amenities": [
-        "Outdoor Dining"
-      ]
-    }
-  },
-  {
-    "title": "Chez Nick",
-    "location": {
-      "lon": -73.9452127,
-      "lat": 40.7790105
-    },
-    "description": null,
-    "cuisine": "American (New)",
-    "price": [
-      "$$$"
-    ],
-    "category": "salad",
-    "rw_url": "https://www.nyctourism.com/restaurant-week/chez-nick",
-    "tags": {
-      "Accessibility": [
-        "Wheelchair Accessible"
-      ],
-      "Cuisine": [
-        "American (New)"
-      ],
-      "Cost": [
-        "$$$"
       ],
       "Amenities": [
         "Outdoor Dining"
@@ -15110,34 +15188,6 @@
     }
   },
   {
-    "title": "Romeo's Italian Restaurant",
-    "location": {
-      "lon": -73.8910294,
-      "lat": 40.749183
-    },
-    "description": "Romeo's Italian Restaurant offers fine Italian dining in Jackson Heights, Queens.",
-    "cuisine": "Italian",
-    "price": [
-      "$$$$"
-    ],
-    "category": "pizza",
-    "rw_url": "https://www.nyctourism.com/restaurant-week/romeos-italian-restaurant",
-    "tags": {
-      "Accessibility": [
-        "Wheelchair Accessible"
-      ],
-      "Ownership": [
-        "Woman Owned"
-      ],
-      "Cuisine": [
-        "Italian"
-      ],
-      "Cost": [
-        "$$$$"
-      ]
-    }
-  },
-  {
     "title": "Jane",
     "location": {
       "lon": -74.0001966,
@@ -15816,45 +15866,6 @@
       ],
       "Amenities": [
         "Private Function Room(s)",
-        "Outdoor Dining"
-      ]
-    }
-  },
-  {
-    "title": "Grace Street Cafe",
-    "location": {
-      "lon": -73.9865153,
-      "lat": 40.747819
-    },
-    "description": "Grace Street is a big, open, comfortable coffee and tea house.",
-    "cuisine": "Dessert",
-    "price": [
-      "$"
-    ],
-    "category": "other",
-    "rw_url": "https://www.nyctourism.com/restaurant-week/grace-street-cafe",
-    "tags": {
-      "Accessibility": [
-        "Large Print",
-        "Braille",
-        "Wheelchair Accessible"
-      ],
-      "Ownership": [
-        "Asian American Owned"
-      ],
-      "Cuisine": [
-        "Dessert",
-        "Coffeehouse"
-      ],
-      "Dietary Needs": [
-        "Vegetarian Options",
-        "Vegan Options",
-        "Gluten-Free"
-      ],
-      "Cost": [
-        "$"
-      ],
-      "Amenities": [
         "Outdoor Dining"
       ]
     }
