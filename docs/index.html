@@ -212,7 +212,7 @@
         removeOutsideVisibleBounds: true,
       })
 
-      // render pins
+      // render pins on map
       function renderPins(data) {
         markers.clearLayers()
         data.forEach((restaurant) => {
@@ -234,7 +234,7 @@
         map.addLayer(markers)
       }
 
-      // render list
+      // render list in filter panel
       function renderResultsList(data) {
         const resultsPanel = document.getElementById('places-list')
         resultsPanel.innerHTML = '' // clear the panel first
@@ -254,10 +254,14 @@
         })
       }
 
-      // filter state
+      // on keyword change update filters
       document.getElementById('search-input').addEventListener('input', function () {
         filters.search = this.value.toLowerCase()
         applyFiltersAndRender()
+      })
+      // close filter panel
+      document.getElementById('filter-panel-close').addEventListener('click', function () {
+        document.getElementById('filter-panel').classList.remove('open', 'full-width')
       })
       var FilterButton = L.Control.extend({
         onAdd: function () {
@@ -289,10 +293,7 @@
       })
       map.addControl(new FilterButton({ position: 'bottomleft' }))
 
-      document.getElementById('filter-panel-close').addEventListener('click', function () {
-        document.getElementById('filter-panel').classList.remove('open', 'full-width')
-      })
-
+      // render tags in filter panel
       function renderTagFilter(tagsToOptions) {
         const sectionEl = document.getElementById('tag-filter')
 
@@ -318,7 +319,7 @@
           sectionEl.appendChild(divEl)
         }
 
-        // Add listeners
+        // handle filter changes
         document.querySelectorAll('#tag-filter select').forEach((el) =>
           el.addEventListener('change', (event) => {
             const { name, options } = event.target
@@ -328,10 +329,10 @@
             applyFiltersAndRender()
           })
         )
-
         MultiselectDropdown(window.MultiselectDropdownOptions)
       }
 
+      // filter pins and render map
       function applyFiltersAndRender() {
         const filteredData = allData.filter((restaurant) => {
           // Search filter
@@ -360,11 +361,10 @@
         document.getElementById('filter-count').innerHTML = filteredData.length
       }
 
-      // data fetching
-      let request = fetch('data.json').then((response) => response.json())
-
-      document.addEventListener('DOMContentLoaded', function () {
-        request.then((data) => {
+      // fetch data and set up map
+      fetch('data.json')
+        .then((response) => response.json())
+        .then((data) => {
           allData = data
 
           // Hardcode these to be at the top
@@ -397,7 +397,6 @@
             document.getElementById('filter-panel').classList.add('open')
           }
         })
-      })
     </script>
 
     <script>

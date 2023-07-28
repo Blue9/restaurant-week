@@ -1,5 +1,447 @@
 [
   {
+    "title": "Riverpark",
+    "location": {
+      "lon": -73.9739,
+      "lat": 40.7396
+    },
+    "description": "Riverpark represents a dynamic culinary destination in Manhattan's Kip's Bay neighborhood.",
+    "cuisine": "American (New)",
+    "price": [
+      "$$$"
+    ],
+    "category": "salad",
+    "rw_url": "https://www.nyctourism.com/restaurant-week/riverpark",
+    "tags": {
+      "Accessibility": [
+        "Large Print",
+        "Wheelchair Accessible"
+      ],
+      "Cuisine": [
+        "American (New)"
+      ],
+      "Dietary Needs": [
+        "Vegetarian Options",
+        "Gluten-Free"
+      ],
+      "Additional Information": [
+        "Free WiFi",
+        "Internet"
+      ],
+      "Cost": [
+        "$$$"
+      ],
+      "Type": [
+        "Maritime/Waterfront"
+      ],
+      "Amenities": [
+        "Private Function Room(s)"
+      ],
+      "Experience": [
+        "Luxury"
+      ]
+    }
+  },
+  {
+    "title": "Industry Kitchen",
+    "location": {
+      "lon": -74.0083191,
+      "lat": 40.7031277
+    },
+    "description": null,
+    "cuisine": "American (New)",
+    "price": [
+      "$$$$"
+    ],
+    "category": "salad",
+    "rw_url": "https://www.nyctourism.com/restaurant-week/industry-kitchen",
+    "tags": {
+      "Accessibility": [
+        "Wheelchair Accessible"
+      ],
+      "Cuisine": [
+        "American (New)"
+      ],
+      "Dietary Needs": [
+        "Vegetarian Options",
+        "Vegan Options",
+        "Gluten-Free"
+      ],
+      "Cost": [
+        "$$$$"
+      ],
+      "Amenities": [
+        "Outdoor Dining"
+      ]
+    }
+  },
+  {
+    "title": "Philippe by Philippe Chow Downtown",
+    "location": {
+      "lon": -74.0034791,
+      "lat": 40.7423311
+    },
+    "description": "This newly renovated subterranean dining space offers a family-style menu that emphasizes traditional Beijing cuisine with an elevated twist.",
+    "cuisine": "Chinese",
+    "price": [
+      "$$$$"
+    ],
+    "category": "asian",
+    "rw_url": "https://www.nyctourism.com/restaurant-week/philippe-by-philippe-chow-downtown",
+    "tags": {
+      "Accessibility": [
+        "Wheelchair Accessible"
+      ],
+      "Cuisine": [
+        "Chinese"
+      ],
+      "Dietary Needs": [
+        "Vegetarian Options",
+        "Vegan Options",
+        "Gluten-Free"
+      ],
+      "Additional Information": [
+        "Free WiFi",
+        "Internet"
+      ],
+      "Cost": [
+        "$$$$"
+      ],
+      "Type": [
+        "Live Music",
+        "DJs"
+      ],
+      "Amenities": [
+        "Private Function Room(s)",
+        "Outdoor Dining"
+      ]
+    }
+  },
+  {
+    "title": "Versa",
+    "location": {
+      "lon": -73.9910432,
+      "lat": 40.7518063
+    },
+    "description": "Versa celebrates the melting pot of New York City through its diverse menu options, featuring essential breakfast, lunch and dinner dishes and exceptional cocktails.",
+    "cuisine": "American (New)",
+    "price": [
+      "$$$$"
+    ],
+    "category": "salad",
+    "rw_url": "https://www.nyctourism.com/restaurant-week/versa",
+    "tags": {
+      "Accessibility": [
+        "Wheelchair Accessible"
+      ],
+      "Cuisine": [
+        "American (New)"
+      ],
+      "Cost": [
+        "$$$$"
+      ]
+    }
+  },
+  {
+    "title": "Sagaponack",
+    "location": {
+      "lon": -73.9907851,
+      "lat": 40.7409362
+    },
+    "description": "Sagaponack is a seafood restaurant specializing in chef-driven approachable quality.",
+    "cuisine": "Seafood",
+    "price": [
+      "$$$$"
+    ],
+    "category": "other",
+    "rw_url": "https://www.nyctourism.com/restaurant-week/sagaponack",
+    "tags": {
+      "Accessibility": [
+        "Wheelchair Accessible"
+      ],
+      "Ownership": [
+        "Asian American Owned"
+      ],
+      "Cuisine": [
+        "Seafood"
+      ],
+      "Cost": [
+        "$$$$"
+      ]
+    }
+  },
+  {
+    "title": "5 Napkin Burger - Upper West Side",
+    "location": {
+      "lon": -73.9781361,
+      "lat": 40.7870473
+    },
+    "description": null,
+    "cuisine": "American (Traditional)",
+    "price": [
+      "$$$"
+    ],
+    "category": "burger",
+    "rw_url": "https://www.nyctourism.com/restaurant-week/5-napkin-burger-upper-west-side",
+    "tags": {
+      "Accessibility": [
+        "Wheelchair Accessible"
+      ],
+      "Cuisine": [
+        "American (Traditional)",
+        "Burgers"
+      ],
+      "Dietary Needs": [
+        "Vegetarian Options",
+        "Vegan Options",
+        "Gluten-Free"
+      ],
+      "Cost": [
+        "$$$"
+      ],
+      "Amenities": [
+        "Outdoor Dining"
+      ]
+    }
+  },
+  {
+    "title": "5 Napkin Burger - Hell's Kitchen",
+    "location": {
+      "lon": -73.9912338,
+      "lat": 40.759987
+    },
+    "description": "Bring a big appetite to Five Napkin Burger\u2014their house specialty burger is waiting for you, and it means business.",
+    "cuisine": "American (Traditional)",
+    "price": [
+      "$$",
+      "$$$"
+    ],
+    "category": "burger",
+    "rw_url": "https://www.nyctourism.com/restaurant-week/five-napkin-burger-hells-kitchen",
+    "tags": {
+      "Accessibility": [
+        "Wheelchair Accessible"
+      ],
+      "Cuisine": [
+        "American (Traditional)",
+        "Burgers"
+      ],
+      "Dietary Needs": [
+        "Vegetarian Options",
+        "Vegan Options",
+        "Gluten-Free"
+      ],
+      "Cost": [
+        "$$",
+        "$$$"
+      ],
+      "Amenities": [
+        "Outdoor Dining"
+      ]
+    }
+  },
+  {
+    "title": "Pappardella",
+    "location": {
+      "lon": -73.9776056,
+      "lat": 40.779347
+    },
+    "description": null,
+    "cuisine": "Italian",
+    "price": [
+      "$$$"
+    ],
+    "category": "pizza",
+    "rw_url": "https://www.nyctourism.com/restaurant-week/pappardella",
+    "tags": {
+      "Accessibility": [
+        "Wheelchair Accessible"
+      ],
+      "Ownership": [
+        "Woman Owned"
+      ],
+      "Cuisine": [
+        "Italian"
+      ],
+      "Dietary Needs": [
+        "Vegetarian Options",
+        "Vegan Options",
+        "Gluten-Free"
+      ],
+      "Cost": [
+        "$$$"
+      ],
+      "Amenities": [
+        "Outdoor Dining"
+      ]
+    }
+  },
+  {
+    "title": "UN Plaza Grill",
+    "location": {
+      "lon": -73.9676966,
+      "lat": 40.7525229
+    },
+    "description": "Midtown East's UN Plaza Grill makes New American kosher food with international influences, reflecting its location across the street from the United Nations.",
+    "cuisine": "American (New)",
+    "price": [
+      "$$$$$"
+    ],
+    "category": "salad",
+    "rw_url": "https://www.nyctourism.com/restaurant-week/un-plaza-grill",
+    "tags": {
+      "Accessibility": [
+        "Wheelchair Accessible"
+      ],
+      "Cuisine": [
+        "American (New)"
+      ],
+      "Dietary Needs": [
+        "Kosher",
+        "Vegetarian Options"
+      ],
+      "Cost": [
+        "$$$$$"
+      ],
+      "Amenities": [
+        "Outdoor Dining"
+      ]
+    }
+  },
+  {
+    "title": "Boucherie West Village",
+    "location": {
+      "lon": -74.0028776,
+      "lat": 40.7330828
+    },
+    "description": "This traditional French restaurant in the West Village is helmed by executive chef Jerome Dihui.",
+    "cuisine": "French",
+    "price": [
+      "$$$$"
+    ],
+    "category": "bread",
+    "rw_url": "https://www.nyctourism.com/restaurant-week/boucherie-west-village",
+    "tags": {
+      "Accessibility": [
+        "Wheelchair Accessible"
+      ],
+      "Cuisine": [
+        "French"
+      ],
+      "Cost": [
+        "$$$$"
+      ],
+      "Amenities": [
+        "Outdoor Dining"
+      ]
+    }
+  },
+  {
+    "title": "Boucherie Union Square",
+    "location": {
+      "lon": -73.9879502,
+      "lat": 40.7371329
+    },
+    "description": "At Boucherie Union Square, a traditional French brasserie and steakhouse, Executive Chef Jerome Dihui prepares a menu of French classics and timeless bistro favorites, in addition to dry-aged steaks.",
+    "cuisine": "French",
+    "price": [
+      "$$$$",
+      "Gift Cards Available"
+    ],
+    "category": "bread",
+    "rw_url": "https://www.nyctourism.com/restaurant-week/boucherie-union-square",
+    "tags": {
+      "Accessibility": [
+        "Wheelchair Accessible"
+      ],
+      "Cuisine": [
+        "French"
+      ],
+      "Cost": [
+        "$$$$",
+        "Gift Cards Available"
+      ],
+      "Amenities": [
+        "Outdoor Dining"
+      ]
+    }
+  },
+  {
+    "title": "Redeye Grill",
+    "location": {
+      "lon": -73.9806837,
+      "lat": 40.7651937
+    },
+    "description": "This cavernous restaurant captures the richness of NYC with a big, inclusive menu that ranges from miso to matzo ball soup and Cobb salad.",
+    "cuisine": "American (New)",
+    "price": [
+      "$$$"
+    ],
+    "category": "salad",
+    "rw_url": "https://www.nyctourism.com/restaurant-week/redeye-grill",
+    "tags": {
+      "Accessibility": [
+        "Wheelchair Accessible"
+      ],
+      "Cuisine": [
+        "American (New)",
+        "Seafood"
+      ],
+      "Dietary Needs": [
+        "Vegetarian Options",
+        "Vegan Options",
+        "Gluten-Free"
+      ],
+      "Additional Information": [
+        "Free WiFi",
+        "Internet"
+      ],
+      "Cost": [
+        "$$$"
+      ],
+      "Amenities": [
+        "Private Function Room(s)",
+        "Outdoor Dining"
+      ]
+    }
+  },
+  {
+    "title": "Bond 45",
+    "location": {
+      "lon": -73.9861745,
+      "lat": 40.7593741
+    },
+    "description": "This enormous, bi-level, Italian-ish venue offers breakfast all day, a lavish antipasti bar and post-show happy hour discounts nightly; at lunch and dinner are thin-crust pizzas, pasta, big salads, grilled fish, and burgers with cacio e pepe-dusted fries.\n",
+    "cuisine": "Italian",
+    "price": [
+      "$$$"
+    ],
+    "category": "pizza",
+    "rw_url": "https://www.nyctourism.com/restaurant-week/bond-45",
+    "tags": {
+      "Accessibility": [
+        "Wheelchair Accessible"
+      ],
+      "Cuisine": [
+        "Italian",
+        "Steakhouse",
+        "Seafood"
+      ],
+      "Dietary Needs": [
+        "Vegetarian Options",
+        "Vegan Options",
+        "Gluten-Free"
+      ],
+      "Additional Information": [
+        "Free WiFi",
+        "Internet"
+      ],
+      "Cost": [
+        "$$$"
+      ]
+    }
+  },
+  {
     "title": "Trattoria Dell'Arte",
     "location": {
       "lon": -73.9805358,
@@ -722,64 +1164,6 @@
       ],
       "Cost": [
         "$$$"
-      ]
-    }
-  },
-  {
-    "title": "Boucherie West Village",
-    "location": {
-      "lon": -74.0028776,
-      "lat": 40.7330828
-    },
-    "description": "This traditional French restaurant in the West Village is helmed by executive chef Jerome Dihui.",
-    "cuisine": "French",
-    "price": [
-      "$$$$"
-    ],
-    "category": "bread",
-    "rw_url": "https://www.nyctourism.com/restaurant-week/boucherie-west-village",
-    "tags": {
-      "Accessibility": [
-        "Wheelchair Accessible"
-      ],
-      "Cuisine": [
-        "French"
-      ],
-      "Cost": [
-        "$$$$"
-      ],
-      "Amenities": [
-        "Outdoor Dining"
-      ]
-    }
-  },
-  {
-    "title": "Boucherie Union Square",
-    "location": {
-      "lon": -73.9879502,
-      "lat": 40.7371329
-    },
-    "description": "At Boucherie Union Square, a traditional French brasserie and steakhouse, Executive Chef Jerome Dihui prepares a menu of French classics and timeless bistro favorites, in addition to dry-aged steaks.",
-    "cuisine": "French",
-    "price": [
-      "$$$$",
-      "Gift Cards Available"
-    ],
-    "category": "bread",
-    "rw_url": "https://www.nyctourism.com/restaurant-week/boucherie-union-square",
-    "tags": {
-      "Accessibility": [
-        "Wheelchair Accessible"
-      ],
-      "Cuisine": [
-        "French"
-      ],
-      "Cost": [
-        "$$$$",
-        "Gift Cards Available"
-      ],
-      "Amenities": [
-        "Outdoor Dining"
       ]
     }
   },
@@ -3425,42 +3809,6 @@
     }
   },
   {
-    "title": "Pappardella",
-    "location": {
-      "lon": -73.9776056,
-      "lat": 40.779347
-    },
-    "description": null,
-    "cuisine": "Italian",
-    "price": [
-      "$$$"
-    ],
-    "category": "pizza",
-    "rw_url": "https://www.nyctourism.com/restaurant-week/pappardella",
-    "tags": {
-      "Accessibility": [
-        "Wheelchair Accessible"
-      ],
-      "Ownership": [
-        "Woman Owned"
-      ],
-      "Cuisine": [
-        "Italian"
-      ],
-      "Dietary Needs": [
-        "Vegetarian Options",
-        "Vegan Options",
-        "Gluten-Free"
-      ],
-      "Cost": [
-        "$$$"
-      ],
-      "Amenities": [
-        "Outdoor Dining"
-      ]
-    }
-  },
-  {
     "title": "Goa New York",
     "location": {
       "lon": -74.0053002,
@@ -3960,45 +4308,6 @@
         "Live Music"
       ],
       "Amenities": [
-        "Outdoor Dining"
-      ]
-    }
-  },
-  {
-    "title": "Redeye Grill",
-    "location": {
-      "lon": -73.9806837,
-      "lat": 40.7651937
-    },
-    "description": "This cavernous restaurant captures the richness of NYC with a big, inclusive menu that ranges from miso to matzo ball soup and Cobb salad.",
-    "cuisine": "American (New)",
-    "price": [
-      "$$$"
-    ],
-    "category": "salad",
-    "rw_url": "https://www.nyctourism.com/restaurant-week/redeye-grill",
-    "tags": {
-      "Accessibility": [
-        "Wheelchair Accessible"
-      ],
-      "Cuisine": [
-        "American (New)",
-        "Seafood"
-      ],
-      "Dietary Needs": [
-        "Vegetarian Options",
-        "Vegan Options",
-        "Gluten-Free"
-      ],
-      "Additional Information": [
-        "Free WiFi",
-        "Internet"
-      ],
-      "Cost": [
-        "$$$"
-      ],
-      "Amenities": [
-        "Private Function Room(s)",
         "Outdoor Dining"
       ]
     }
@@ -5831,34 +6140,6 @@
       ],
       "Type": [
         "DJs"
-      ]
-    }
-  },
-  {
-    "title": "Sagaponack",
-    "location": {
-      "lon": -73.9907851,
-      "lat": 40.7409362
-    },
-    "description": "Sagaponack is a seafood restaurant specializing in chef-driven approachable quality.",
-    "cuisine": "Seafood",
-    "price": [
-      "$$$$"
-    ],
-    "category": "other",
-    "rw_url": "https://www.nyctourism.com/restaurant-week/sagaponack",
-    "tags": {
-      "Accessibility": [
-        "Wheelchair Accessible"
-      ],
-      "Ownership": [
-        "Asian American Owned"
-      ],
-      "Cuisine": [
-        "Seafood"
-      ],
-      "Cost": [
-        "$$$$"
       ]
     }
   },
@@ -9592,49 +9873,6 @@
     }
   },
   {
-    "title": "Riverpark",
-    "location": {
-      "lon": -73.9739,
-      "lat": 40.7396
-    },
-    "description": "Riverpark represents a dynamic culinary destination in Manhattan's Kip's Bay neighborhood.",
-    "cuisine": "American (New)",
-    "price": [
-      "$$$"
-    ],
-    "category": "salad",
-    "rw_url": "https://www.nyctourism.com/restaurant-week/riverpark",
-    "tags": {
-      "Accessibility": [
-        "Large Print",
-        "Wheelchair Accessible"
-      ],
-      "Cuisine": [
-        "American (New)"
-      ],
-      "Dietary Needs": [
-        "Vegetarian Options",
-        "Gluten-Free"
-      ],
-      "Additional Information": [
-        "Free WiFi",
-        "Internet"
-      ],
-      "Cost": [
-        "$$$"
-      ],
-      "Type": [
-        "Maritime/Waterfront"
-      ],
-      "Amenities": [
-        "Private Function Room(s)"
-      ],
-      "Experience": [
-        "Luxury"
-      ]
-    }
-  },
-  {
     "title": "The Gallery",
     "location": {
       "lon": -73.9921624,
@@ -11782,38 +12020,6 @@
     }
   },
   {
-    "title": "UN Plaza Grill",
-    "location": {
-      "lon": -73.9676966,
-      "lat": 40.7525229
-    },
-    "description": "Midtown East's UN Plaza Grill makes New American kosher food with international influences, reflecting its location across the street from the United Nations.",
-    "cuisine": "American (New)",
-    "price": [
-      "$$$$$"
-    ],
-    "category": "salad",
-    "rw_url": "https://www.nyctourism.com/restaurant-week/un-plaza-grill",
-    "tags": {
-      "Accessibility": [
-        "Wheelchair Accessible"
-      ],
-      "Cuisine": [
-        "American (New)"
-      ],
-      "Dietary Needs": [
-        "Kosher",
-        "Vegetarian Options"
-      ],
-      "Cost": [
-        "$$$$$"
-      ],
-      "Amenities": [
-        "Outdoor Dining"
-      ]
-    }
-  },
-  {
     "title": "One Dine",
     "location": {
       "lon": -74.0131689,
@@ -11932,42 +12138,6 @@
       ],
       "Amenities": [
         "Private Function Room(s)"
-      ]
-    }
-  },
-  {
-    "title": "Bond 45",
-    "location": {
-      "lon": -73.9861745,
-      "lat": 40.7593741
-    },
-    "description": "This enormous, bi-level, Italian-ish venue offers breakfast all day, a lavish antipasti bar and post-show happy hour discounts nightly; at lunch and dinner are thin-crust pizzas, pasta, big salads, grilled fish, and burgers with cacio e pepe-dusted fries.\n",
-    "cuisine": "Italian",
-    "price": [
-      "$$$"
-    ],
-    "category": "pizza",
-    "rw_url": "https://www.nyctourism.com/restaurant-week/bond-45",
-    "tags": {
-      "Accessibility": [
-        "Wheelchair Accessible"
-      ],
-      "Cuisine": [
-        "Italian",
-        "Steakhouse",
-        "Seafood"
-      ],
-      "Dietary Needs": [
-        "Vegetarian Options",
-        "Vegan Options",
-        "Gluten-Free"
-      ],
-      "Additional Information": [
-        "Free WiFi",
-        "Internet"
-      ],
-      "Cost": [
-        "$$$"
       ]
     }
   },
@@ -13097,48 +13267,6 @@
       ],
       "Cost": [
         "$$$$"
-      ],
-      "Amenities": [
-        "Private Function Room(s)",
-        "Outdoor Dining"
-      ]
-    }
-  },
-  {
-    "title": "Philippe by Philippe Chow Downtown",
-    "location": {
-      "lon": -74.0034791,
-      "lat": 40.7423311
-    },
-    "description": "This newly renovated subterranean dining space offers a family-style menu that emphasizes traditional Beijing cuisine with an elevated twist.",
-    "cuisine": "Chinese",
-    "price": [
-      "$$$$"
-    ],
-    "category": "asian",
-    "rw_url": "https://www.nyctourism.com/restaurant-week/philippe-by-philippe-chow-downtown",
-    "tags": {
-      "Accessibility": [
-        "Wheelchair Accessible"
-      ],
-      "Cuisine": [
-        "Chinese"
-      ],
-      "Dietary Needs": [
-        "Vegetarian Options",
-        "Vegan Options",
-        "Gluten-Free"
-      ],
-      "Additional Information": [
-        "Free WiFi",
-        "Internet"
-      ],
-      "Cost": [
-        "$$$$"
-      ],
-      "Type": [
-        "Live Music",
-        "DJs"
       ],
       "Amenities": [
         "Private Function Room(s)",
@@ -15675,31 +15803,6 @@
     }
   },
   {
-    "title": "Versa",
-    "location": {
-      "lon": -73.9910432,
-      "lat": 40.7518063
-    },
-    "description": "Versa celebrates the melting pot of New York City through its diverse menu options, featuring essential breakfast, lunch and dinner dishes and exceptional cocktails.",
-    "cuisine": "American (New)",
-    "price": [
-      "$$$$"
-    ],
-    "category": "salad",
-    "rw_url": "https://www.nyctourism.com/restaurant-week/versa",
-    "tags": {
-      "Accessibility": [
-        "Wheelchair Accessible"
-      ],
-      "Cuisine": [
-        "American (New)"
-      ],
-      "Cost": [
-        "$$$$"
-      ]
-    }
-  },
-  {
     "title": "TsuruTonTan Udon Noodle Brasserie - Union Square",
     "location": {
       "lon": -73.9912689,
@@ -16660,76 +16763,6 @@
       ],
       "Amenities": [
         "Private Function Room(s)",
-        "Outdoor Dining"
-      ]
-    }
-  },
-  {
-    "title": "5 Napkin Burger - Hell's Kitchen",
-    "location": {
-      "lon": -73.9912338,
-      "lat": 40.759987
-    },
-    "description": "Bring a big appetite to Five Napkin Burger\u2014their house specialty burger is waiting for you, and it means business.",
-    "cuisine": "Burgers",
-    "price": [
-      "$$",
-      "$$$"
-    ],
-    "category": "burger",
-    "rw_url": "https://www.nyctourism.com/restaurant-week/five-napkin-burger-hells-kitchen",
-    "tags": {
-      "Accessibility": [
-        "Wheelchair Accessible"
-      ],
-      "Cuisine": [
-        "Burgers",
-        "American (Traditional)"
-      ],
-      "Dietary Needs": [
-        "Vegetarian Options",
-        "Vegan Options",
-        "Gluten-Free"
-      ],
-      "Cost": [
-        "$$",
-        "$$$"
-      ],
-      "Amenities": [
-        "Outdoor Dining"
-      ]
-    }
-  },
-  {
-    "title": "5 Napkin Burger - Upper West Side",
-    "location": {
-      "lon": -73.9781361,
-      "lat": 40.7870473
-    },
-    "description": null,
-    "cuisine": "Burgers",
-    "price": [
-      "$$$"
-    ],
-    "category": "burger",
-    "rw_url": "https://www.nyctourism.com/restaurant-week/5-napkin-burger-upper-west-side",
-    "tags": {
-      "Accessibility": [
-        "Wheelchair Accessible"
-      ],
-      "Cuisine": [
-        "Burgers",
-        "American (Traditional)"
-      ],
-      "Dietary Needs": [
-        "Vegetarian Options",
-        "Vegan Options",
-        "Gluten-Free"
-      ],
-      "Cost": [
-        "$$$"
-      ],
-      "Amenities": [
         "Outdoor Dining"
       ]
     }
@@ -17933,39 +17966,6 @@
       ],
       "Cost": [
         "$$$"
-      ],
-      "Amenities": [
-        "Outdoor Dining"
-      ]
-    }
-  },
-  {
-    "title": "Industry Kitchen",
-    "location": {
-      "lon": -74.0083191,
-      "lat": 40.7031277
-    },
-    "description": null,
-    "cuisine": "American (New)",
-    "price": [
-      "$$$$"
-    ],
-    "category": "salad",
-    "rw_url": "https://www.nyctourism.com/restaurant-week/industry-kitchen",
-    "tags": {
-      "Accessibility": [
-        "Wheelchair Accessible"
-      ],
-      "Cuisine": [
-        "American (New)"
-      ],
-      "Dietary Needs": [
-        "Vegetarian Options",
-        "Vegan Options",
-        "Gluten-Free"
-      ],
-      "Cost": [
-        "$$$$"
       ],
       "Amenities": [
         "Outdoor Dining"
