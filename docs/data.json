@@ -1,5 +1,1468 @@
 [
   {
+    "title": "Jungly",
+    "location": {
+      "lon": -73.9503586,
+      "lat": 40.7440197
+    },
+    "description": "Staying true to the essence of New York City, Jungly brings to life flavors from across the globe with an American touch.",
+    "cuisine": "American (New)",
+    "price": [
+      "$$$"
+    ],
+    "category": "salad",
+    "rw_url": "https://www.nyctourism.com/restaurant-week/jungly",
+    "tags": {
+      "Accessibility": [
+        "Large Print",
+        "Wheelchair Accessible"
+      ],
+      "Ownership": [
+        "Asian American Owned"
+      ],
+      "Cuisine": [
+        "American (New)",
+        "Eclectic"
+      ],
+      "Dietary Needs": [
+        "Vegetarian Options",
+        "Vegan Options",
+        "Gluten-Free"
+      ],
+      "Cost": [
+        "$$$"
+      ]
+    }
+  },
+  {
+    "title": "Gowanus Gardens",
+    "location": {
+      "lon": -73.9839919,
+      "lat": 40.6765065
+    },
+    "description": "Find small plates and backyard space at this neighborhood bar. ",
+    "cuisine": "Gastropub",
+    "price": [
+      "$$$"
+    ],
+    "category": "burger",
+    "rw_url": "https://www.nyctourism.com/restaurant-week/gowanus-gardens",
+    "tags": {
+      "Accessibility": [
+        "Wheelchair Accessible"
+      ],
+      "Ownership": [
+        "Woman Owned"
+      ],
+      "Dietary Needs": [
+        "Vegetarian Options",
+        "Vegan Options",
+        "Gluten-Free"
+      ],
+      "Cost": [
+        "$$$"
+      ],
+      "Type": [
+        "Bar",
+        "Cocktails",
+        "Beer"
+      ],
+      "Cuisine": [
+        "Gastropub"
+      ]
+    }
+  },
+  {
+    "title": "Flava's Restaurant and Lounge",
+    "location": {
+      "lon": -73.9114978,
+      "lat": 40.8219488
+    },
+    "description": "Diners feel the tropical breeze and experience yard-man and yard-woman flava style cooking.",
+    "cuisine": "Jamaican",
+    "price": [
+      "$$$"
+    ],
+    "category": "other",
+    "rw_url": "https://www.nyctourism.com/restaurant-week/flavas-restaurant-and-lounge",
+    "tags": {
+      "Accessibility": [
+        "Large Print",
+        "Wheelchair Accessible"
+      ],
+      "Ownership": [
+        "Black Owned"
+      ],
+      "Dietary Needs": [
+        "Vegan Options"
+      ],
+      "Cost": [
+        "$$$"
+      ],
+      "Cuisine": [
+        "Jamaican"
+      ]
+    }
+  },
+  {
+    "title": "Evalyn\u2019s Tap House",
+    "location": {
+      "lon": -73.985532,
+      "lat": 40.681481
+    },
+    "description": "Experience the gastropub menu at Evalyn\u2019s Tap House, which is thoughtfully curated by their talented chef, Steffen Sander.",
+    "cuisine": "Gastropub",
+    "price": [
+      "$$$"
+    ],
+    "category": "burger",
+    "rw_url": "https://www.nyctourism.com/restaurant-week/evalyns-tap-house",
+    "tags": {
+      "Accessibility": [
+        "Large Print",
+        "Wheelchair Accessible"
+      ],
+      "Dietary Needs": [
+        "Vegetarian Options",
+        "Vegan Options",
+        "Gluten-Free"
+      ],
+      "Cost": [
+        "$$$"
+      ],
+      "Type": [
+        "Bar",
+        "Beer"
+      ],
+      "Cuisine": [
+        "Gastropub"
+      ]
+    }
+  },
+  {
+    "title": "Esme",
+    "location": {
+      "lon": -73.9550215,
+      "lat": 40.7331944
+    },
+    "description": "At Esme, seasonal cocktails pair with American small plates in a bustling space with modern touches, a full bar and a covered garden space.",
+    "cuisine": "American (New)",
+    "price": [
+      "$$$$"
+    ],
+    "category": "salad",
+    "rw_url": "https://www.nyctourism.com/restaurant-week/esme",
+    "tags": {
+      "Accessibility": [
+        "Wheelchair Accessible"
+      ],
+      "Cuisine": [
+        "American (New)"
+      ],
+      "Dietary Needs": [
+        "Vegetarian Options",
+        "Gluten-Free"
+      ],
+      "Cost": [
+        "$$$$"
+      ]
+    }
+  },
+  {
+    "title": "Barbalu Bklyn",
+    "location": {
+      "lon": -73.9910146,
+      "lat": 40.6867438
+    },
+    "description": "This Boerum Hill Italian restaurant is Stefano Barbagallo and Adriana Luque's second, following their Seaport location that opened in 2013.",
+    "cuisine": "Italian",
+    "price": [
+      "$$$$"
+    ],
+    "category": "pizza",
+    "rw_url": "https://www.nyctourism.com/restaurant-week/barbalu-bklyn",
+    "tags": {
+      "Dietary Needs": [
+        "Organic",
+        "Vegetarian Options",
+        "Gluten-Free"
+      ],
+      "Accessibility": [
+        "Wheelchair Accessible"
+      ],
+      "Cuisine": [
+        "Italian"
+      ],
+      "Additional Information": [
+        "Free WiFi",
+        "Internet"
+      ],
+      "Cost": [
+        "$$$$"
+      ],
+      "Amenities": [
+        "Outdoor Dining"
+      ]
+    }
+  },
+  {
+    "title": "Aromi",
+    "location": {
+      "lon": -73.9996712,
+      "lat": 40.6750294
+    },
+    "description": "Aromi is a restaurant and pizzeria with a mission to bring classic, authentic Italian recipes to Carroll Gardens in Brooklyn.",
+    "cuisine": "Italian",
+    "price": [
+      "$$$"
+    ],
+    "category": "pizza",
+    "rw_url": "https://www.nyctourism.com/restaurant-week/aromi",
+    "tags": {
+      "Accessibility": [
+        "Wheelchair Accessible"
+      ],
+      "Cuisine": [
+        "Italian",
+        "Pizza"
+      ],
+      "Dietary Needs": [
+        "Vegetarian Options",
+        "Vegan Options",
+        "Gluten-Free"
+      ],
+      "Cost": [
+        "$$$"
+      ]
+    }
+  },
+  {
+    "title": "Mas Tortilla",
+    "location": {
+      "lon": -73.8348158,
+      "lat": 40.7175843
+    },
+    "description": "Mas Tortilla is a Mexican restaurant, taquiera and cantina in Forest Hills, Queens.",
+    "cuisine": "Mexican",
+    "price": [
+      "$$$"
+    ],
+    "category": "latin",
+    "rw_url": "https://www.nyctourism.com/restaurant-week/mas-tortilla",
+    "tags": {
+      "Accessibility": [
+        "Large Print",
+        "Wheelchair Accessible"
+      ],
+      "Ownership": [
+        "Latino Owned"
+      ],
+      "Cuisine": [
+        "Mexican"
+      ],
+      "Dietary Needs": [
+        "Vegetarian Options",
+        "Gluten-Free"
+      ],
+      "Cost": [
+        "$$$"
+      ]
+    }
+  },
+  {
+    "title": "La Baraka",
+    "location": {
+      "lon": -73.7342049,
+      "lat": 40.7722433
+    },
+    "description": "La Baraka is a Little Neck destination for the best French dining experience...with a touch of North Africa. ",
+    "cuisine": "French",
+    "price": [
+      "$$$$"
+    ],
+    "category": "bread",
+    "rw_url": "https://www.nyctourism.com/restaurant-week/la-baraka",
+    "tags": {
+      "Accessibility": [
+        "Large Print",
+        "Wheelchair Accessible"
+      ],
+      "Ownership": [
+        "Woman Owned",
+        "Latino Owned"
+      ],
+      "Cuisine": [
+        "French"
+      ],
+      "Cost": [
+        "$$$$"
+      ]
+    }
+  },
+  {
+    "title": "Oceans",
+    "location": {
+      "lon": -73.9879206,
+      "lat": 40.7374674
+    },
+    "description": "With a name like Oceans, it\u2019s no surprise to learn that this restaurant\u2019s menu is inspired by fresh catches from the Atlantic, Pacific and Mediterranean.",
+    "cuisine": "Seafood",
+    "price": [
+      "$$$$"
+    ],
+    "category": "other",
+    "rw_url": "https://www.nyctourism.com/restaurant-week/oceans",
+    "tags": {
+      "Accessibility": [
+        "Wheelchair Accessible"
+      ],
+      "Cuisine": [
+        "Seafood"
+      ],
+      "Dietary Needs": [
+        "Vegetarian Options",
+        "Gluten-Free"
+      ],
+      "Cost": [
+        "$$$$"
+      ]
+    }
+  },
+  {
+    "title": "Mikhuy Peruvian Restaurant",
+    "location": {
+      "lon": -73.9913772,
+      "lat": 40.667646
+    },
+    "description": "Mikhuy Peruvian Restaurant is a minority-, woman- and family-owned restaurant serving traditional Peruvian cuisine in the Gowanus section of Brooklyn.",
+    "cuisine": "Peruvian",
+    "price": [
+      "$$$"
+    ],
+    "category": "latin",
+    "rw_url": "https://www.nyctourism.com/restaurant-week/mikhuy-peruvian-restaurant",
+    "tags": {
+      "Accessibility": [
+        "Large Print",
+        "Wheelchair Accessible"
+      ],
+      "Ownership": [
+        "Woman Owned",
+        "Latino Owned"
+      ],
+      "Cuisine": [
+        "Peruvian"
+      ],
+      "Additional Information": [
+        "Free WiFi",
+        "Internet"
+      ],
+      "Cost": [
+        "$$$"
+      ]
+    }
+  },
+  {
+    "title": "Romeo's Italian Restaurant",
+    "location": {
+      "lon": -73.8910294,
+      "lat": 40.749183
+    },
+    "description": "Romeo's Italian Restaurant offers fine Italian dining in Jackson Heights, Queens.",
+    "cuisine": "Italian",
+    "price": [
+      "$$$$"
+    ],
+    "category": "pizza",
+    "rw_url": "https://www.nyctourism.com/restaurant-week/romeos-italian-restaurant",
+    "tags": {
+      "Accessibility": [
+        "Wheelchair Accessible"
+      ],
+      "Ownership": [
+        "Woman Owned"
+      ],
+      "Cuisine": [
+        "Italian"
+      ],
+      "Cost": [
+        "$$$$"
+      ]
+    }
+  },
+  {
+    "title": "Le Rock",
+    "location": {
+      "lon": -73.9777136,
+      "lat": 40.7591523
+    },
+    "description": "Le Rock is a bustling French\u00a0Brasserie that serves\u00a0traditional French fare alongside some more unexpected offerings.",
+    "cuisine": "French",
+    "price": [
+      "$$$$"
+    ],
+    "category": "bread",
+    "rw_url": "https://www.nyctourism.com/restaurant-week/le-rock",
+    "tags": {
+      "Accessibility": [
+        "Wheelchair Accessible"
+      ],
+      "Cuisine": [
+        "French"
+      ],
+      "Cost": [
+        "$$$$"
+      ]
+    }
+  },
+  {
+    "title": "Bar Tulix",
+    "location": {
+      "lon": -73.9979265,
+      "lat": 40.7256816
+    },
+    "description": "Bar Tulix serves up fresh crudos, seafood tostadas, whole fish in masa batter and other Baja California specialties.",
+    "cuisine": "Mexican",
+    "price": [
+      "$$$$"
+    ],
+    "category": "latin",
+    "rw_url": "https://www.nyctourism.com/restaurant-week/bar-tulix",
+    "tags": {
+      "Accessibility": [
+        "Large Print",
+        "Wheelchair Accessible"
+      ],
+      "Cuisine": [
+        "Mexican",
+        "Seafood"
+      ],
+      "Dietary Needs": [
+        "Gluten-Free"
+      ],
+      "Cost": [
+        "$$$$"
+      ],
+      "Type": [
+        "Bar",
+        "Cocktails"
+      ]
+    }
+  },
+  {
+    "title": "Au Jus - Upper West Side",
+    "location": {
+      "lon": -73.9705919,
+      "lat": 40.796848
+    },
+    "description": null,
+    "cuisine": "Barbecue",
+    "price": [
+      "$$$"
+    ],
+    "category": "burger",
+    "rw_url": "https://www.nyctourism.com/restaurant-week/au-jus-upper-west-side",
+    "tags": {
+      "Accessibility": [
+        "Wheelchair Accessible"
+      ],
+      "Cuisine": [
+        "Barbecue"
+      ],
+      "Dietary Needs": [
+        "Vegetarian Options",
+        "Vegan Options",
+        "Gluten-Free"
+      ],
+      "Cost": [
+        "$$$"
+      ],
+      "Amenities": [
+        "Outdoor Dining"
+      ]
+    }
+  },
+  {
+    "title": "Alice",
+    "location": {
+      "lon": -73.9986702,
+      "lat": 40.7370456
+    },
+    "description": "Alice is a sophisticated, intimate Italian seafood and lobster bar set in the basement of a historic brownstone.",
+    "cuisine": "Italian",
+    "price": [
+      "$$$$"
+    ],
+    "category": "pizza",
+    "rw_url": "https://www.nyctourism.com/restaurant-week/alice",
+    "tags": {
+      "Accessibility": [
+        "Wheelchair Accessible"
+      ],
+      "Ownership": [
+        "Latino Owned"
+      ],
+      "Cuisine": [
+        "Italian",
+        "Seafood"
+      ],
+      "Dietary Needs": [
+        "Vegetarian Options",
+        "Vegan Options",
+        "Gluten-Free"
+      ],
+      "Cost": [
+        "$$$$"
+      ],
+      "Amenities": [
+        "Outdoor Dining"
+      ]
+    }
+  },
+  {
+    "title": "Addictive NYC",
+    "location": {
+      "lon": -73.9800332,
+      "lat": 40.7565859
+    },
+    "description": "Addictive NYC is a tapas bar, wine bar and restaurant that is filled with delicious wines and dishes inspired by their love of vineyards terroir around the world as well as Mediterranean flavors.",
+    "cuisine": "Mediterranean",
+    "price": [
+      "$$$"
+    ],
+    "category": "kebab",
+    "rw_url": "https://www.nyctourism.com/restaurant-week/addictive-nyc",
+    "tags": {
+      "Ownership": [
+        "LGBTQ+ Owned",
+        "Latino Owned",
+        "Asian American Owned"
+      ],
+      "Cuisine": [
+        "Mediterranean",
+        "Spanish",
+        "American (New)"
+      ],
+      "Dietary Needs": [
+        "Vegetarian Options",
+        "Vegan Options",
+        "Gluten-Free"
+      ],
+      "Cost": [
+        "$$$"
+      ],
+      "Type": [
+        "Bar",
+        "Wine"
+      ]
+    }
+  },
+  {
+    "title": "Boqueria - Soho",
+    "location": {
+      "lon": -74.0021707,
+      "lat": 40.7248676
+    },
+    "description": "Seamus Mullen was a well-recognized chef before he became a competitor on The Next Iron Chef, but it hasn\u2019t hurt the business at his bustling, cozy tapas restaurant in SoHo.",
+    "cuisine": "Spanish",
+    "price": [
+      "$$$"
+    ],
+    "category": "latin",
+    "rw_url": "https://www.nyctourism.com/restaurant-week/boqueria-soho",
+    "tags": {
+      "Accessibility": [
+        "Wheelchair Accessible"
+      ],
+      "Cuisine": [
+        "Spanish"
+      ],
+      "Cost": [
+        "$$$"
+      ]
+    }
+  },
+  {
+    "title": "Broadway Lounge",
+    "location": {
+      "lon": -73.9858202,
+      "lat": 40.7585862
+    },
+    "description": "With spectacular views of Times Square and sophisticated and comfortable d\u00e9cor, the all-new Broadway Lounge, located in the New York Marriott Marquis, is perfect for cocktails or pre-theater snacks above Times Square.",
+    "cuisine": "American (New)",
+    "price": [
+      "$$$"
+    ],
+    "category": "salad",
+    "rw_url": "https://www.nyctourism.com/restaurant-week/broadway-lounge",
+    "tags": {
+      "Accessibility": [
+        "Wheelchair Accessible"
+      ],
+      "Cuisine": [
+        "American (New)"
+      ],
+      "Dietary Needs": [
+        "Vegetarian Options",
+        "Gluten-Free"
+      ],
+      "Additional Information": [
+        "Internet"
+      ],
+      "Cost": [
+        "$$$"
+      ],
+      "Type": [
+        "Live Music"
+      ]
+    }
+  },
+  {
+    "title": "Casa Limone",
+    "location": {
+      "lon": -73.9766059,
+      "lat": 40.7573268
+    },
+    "description": "Casa Limone offers the flavors, wines and spirits of Michelin-starred chef Antonio Salvatore\u2019s upbringing in Basilicata and neighboring regions.",
+    "cuisine": "Italian",
+    "price": [
+      "$$$$"
+    ],
+    "category": "pizza",
+    "rw_url": "https://www.nyctourism.com/restaurant-week/casa-limone",
+    "tags": {
+      "Accessibility": [
+        "Large Print",
+        "Braille",
+        "Wheelchair Accessible"
+      ],
+      "Cuisine": [
+        "Italian"
+      ],
+      "Dietary Needs": [
+        "Vegetarian Options",
+        "Vegan Options",
+        "Gluten-Free"
+      ],
+      "Additional Information": [
+        "Free WiFi",
+        "Internet"
+      ],
+      "Cost": [
+        "$$$$"
+      ]
+    }
+  },
+  {
+    "title": "La Barra",
+    "location": {
+      "lon": -74.0013517,
+      "lat": 40.752594
+    },
+    "description": "At La Barra, you can explore beloved dishes from numerous tapas bars all around Spain.",
+    "cuisine": "Spanish",
+    "price": [
+      "$$$"
+    ],
+    "category": "latin",
+    "rw_url": "https://www.nyctourism.com/restaurant-week/la-barra",
+    "tags": {
+      "Accessibility": [
+        "Wheelchair Accessible"
+      ],
+      "Ownership": [
+        "Latino Owned"
+      ],
+      "Cuisine": [
+        "Spanish"
+      ],
+      "Cost": [
+        "$$$"
+      ],
+      "Genre": [
+        "Kid-Friendly"
+      ],
+      "Additional Information": [
+        "Free WiFi"
+      ],
+      "Type": [
+        "Live Music"
+      ]
+    }
+  },
+  {
+    "title": "Queens Bully",
+    "location": {
+      "lon": -73.8354587,
+      "lat": 40.7170196
+    },
+    "description": "This Forest Hills gastropub and barbecue joint pays homage to flavors around its home borough.",
+    "cuisine": "Barbecue",
+    "price": [
+      "$$$"
+    ],
+    "category": "burger",
+    "rw_url": "https://www.nyctourism.com/restaurant-week/queens-bully",
+    "tags": {
+      "Accessibility": [
+        "Large Print",
+        "Wheelchair Accessible"
+      ],
+      "Ownership": [
+        "Asian American Owned"
+      ],
+      "Cuisine": [
+        "Barbecue",
+        "Gastropub"
+      ],
+      "Dietary Needs": [
+        "Vegetarian Options",
+        "Vegan Options",
+        "Gluten-Free"
+      ],
+      "Cost": [
+        "$$$"
+      ],
+      "Amenities": [
+        "Outdoor Dining"
+      ]
+    }
+  },
+  {
+    "title": "Maggie's Place",
+    "location": {
+      "lon": -73.9771145,
+      "lat": 40.7562972
+    },
+    "description": "Family-owned since 1974, Maggie's Place serves up shepherd's pie, chicken pot pie, fish & chips, burgers and pub fare alongside a selection of wine and beer.",
+    "cuisine": "American (New)",
+    "price": [
+      "$$$"
+    ],
+    "category": "salad",
+    "rw_url": "https://www.nyctourism.com/restaurant-week/maggies-place",
+    "tags": {
+      "Accessibility": [
+        "Wheelchair Accessible"
+      ],
+      "Cuisine": [
+        "American (New)",
+        "American (Traditional)",
+        "Irish"
+      ],
+      "Dietary Needs": [
+        "Vegetarian Options",
+        "Gluten-Free"
+      ],
+      "Cost": [
+        "$$$"
+      ],
+      "Type": [
+        "Bar",
+        "Pub"
+      ]
+    }
+  },
+  {
+    "title": "EZ Paella & Tapas",
+    "location": {
+      "lon": -73.9885866,
+      "lat": 40.7635547
+    },
+    "description": "The restaurant serves tapas, wine, sangria and paella in a casual ambiance with nice music and great food.",
+    "cuisine": "Spanish",
+    "price": [
+      "$$$"
+    ],
+    "category": "latin",
+    "rw_url": "https://www.nyctourism.com/restaurant-week/ez-paella-tapas",
+    "tags": {
+      "Accessibility": [
+        "Large Print",
+        "Wheelchair Accessible"
+      ],
+      "Ownership": [
+        "Woman Owned",
+        "Latino Owned"
+      ],
+      "Cuisine": [
+        "Spanish"
+      ],
+      "Dietary Needs": [
+        "Vegetarian Options",
+        "Vegan Options",
+        "Gluten-Free"
+      ],
+      "Additional Information": [
+        "Free WiFi"
+      ],
+      "Cost": [
+        "$$$"
+      ]
+    }
+  },
+  {
+    "title": "Carlotto",
+    "location": {
+      "lon": -73.9876492,
+      "lat": 40.7374367
+    },
+    "description": "Under the leadership of executive chef Andy Kitko and his culinary team, Carlotto\u2019s menu honors Italy\u2019s most celebrated regions.",
+    "cuisine": "Italian",
+    "price": [
+      "$$$$"
+    ],
+    "category": "pizza",
+    "rw_url": "https://www.nyctourism.com/restaurant-week/carlotto",
+    "tags": {
+      "Accessibility": [
+        "Wheelchair Accessible"
+      ],
+      "Cuisine": [
+        "Italian"
+      ],
+      "Dietary Needs": [
+        "Vegetarian Options",
+        "Gluten-Free"
+      ],
+      "Cost": [
+        "$$$$"
+      ]
+    }
+  },
+  {
+    "title": "Gupshup",
+    "location": {
+      "lon": -73.98764,
+      "lat": 40.7368777
+    },
+    "description": "A modern Indian fusion restaurant brings colorful dishes and decor to Gramercy.",
+    "cuisine": "Indian",
+    "price": [
+      "$$$",
+      "$$$$"
+    ],
+    "category": "other",
+    "rw_url": "https://www.nyctourism.com/restaurant-week/gupshup",
+    "tags": {
+      "Accessibility": [
+        "Large Print",
+        "Braille",
+        "Wheelchair Accessible"
+      ],
+      "Dietary Needs": [
+        "Halal",
+        "Vegetarian Options",
+        "Vegan Options",
+        "Gluten-Free"
+      ],
+      "Ownership": [
+        "Asian American Owned"
+      ],
+      "Cuisine": [
+        "Indian"
+      ],
+      "Cost": [
+        "$$$",
+        "$$$$"
+      ],
+      "Amenities": [
+        "Private Function Room(s)",
+        "Outdoor Dining"
+      ]
+    }
+  },
+  {
+    "title": "Mareluna - Flatiron",
+    "location": {
+      "lon": -73.9924493,
+      "lat": 40.7417031
+    },
+    "description": "Mareluna - Flatiron features an innovative take on Italian crowd favorites and multi-regional dishes, coupled with menu items expertly curated to highlight local meat and game offerings.",
+    "cuisine": "Italian",
+    "price": [
+      "$$$$"
+    ],
+    "category": "pizza",
+    "rw_url": "https://www.nyctourism.com/restaurant-week/mareluna-flatiron",
+    "tags": {
+      "Accessibility": [
+        "Wheelchair Accessible"
+      ],
+      "Ownership": [
+        "Woman Owned"
+      ],
+      "Cuisine": [
+        "Italian"
+      ],
+      "Dietary Needs": [
+        "Vegetarian Options",
+        "Vegan Options",
+        "Gluten-Free"
+      ],
+      "Cost": [
+        "$$$$"
+      ]
+    }
+  },
+  {
+    "title": "Mareluna - Soho",
+    "location": {
+      "lon": -74.0019013,
+      "lat": 40.726843
+    },
+    "description": "At Mareluna, restaurateurs Marco Britti and Andreea Milgram present a modern twist on traditional Italian cooking, featuring the best of every Italian region",
+    "cuisine": "Italian",
+    "price": [
+      "$$$$"
+    ],
+    "category": "pizza",
+    "rw_url": "https://www.nyctourism.com/restaurant-week/mareluna-soho",
+    "tags": {
+      "Accessibility": [
+        "Wheelchair Accessible"
+      ],
+      "Ownership": [
+        "Woman Owned"
+      ],
+      "Cuisine": [
+        "Italian"
+      ],
+      "Dietary Needs": [
+        "Vegetarian Options",
+        "Vegan Options",
+        "Gluten-Free"
+      ],
+      "Cost": [
+        "$$$$"
+      ]
+    }
+  },
+  {
+    "title": "L'Artista Italian Kitchen & Bar",
+    "location": {
+      "lon": -73.9486455,
+      "lat": 40.8243572
+    },
+    "description": "L'Artista serves a seasonal menu of Southern Italian cuisine from Turin-born executive chef/partner German Rizzo, while owner/Partner Daniel Schnyder, a Swiss American composer saxophonist and flutist, curates a live music series.",
+    "cuisine": "Italian",
+    "price": [
+      "$$$"
+    ],
+    "category": "pizza",
+    "rw_url": "https://www.nyctourism.com/restaurant-week/lartista-italian-kitchen-bar",
+    "tags": {
+      "Accessibility": [
+        "Large Print",
+        "Braille",
+        "Wheelchair Accessible"
+      ],
+      "Cuisine": [
+        "Italian"
+      ],
+      "Dietary Needs": [
+        "Gluten-Free"
+      ],
+      "Additional Information": [
+        "Free WiFi",
+        "Internet"
+      ],
+      "Cost": [
+        "$$$"
+      ],
+      "Type": [
+        "Live Music"
+      ]
+    }
+  },
+  {
+    "title": "Gabriel's Bar & Restaurant",
+    "location": {
+      "lon": -73.9757026,
+      "lat": 40.7651362
+    },
+    "description": "A staple for over three decades, Gabriel's brings the quintessential flavors of Italy to Midtown Manhattan.",
+    "cuisine": "Italian",
+    "price": [
+      "$$$$"
+    ],
+    "category": "pizza",
+    "rw_url": "https://www.nyctourism.com/restaurant-week/gabriels-bar-restaurant",
+    "tags": {
+      "Accessibility": [
+        "Large Print",
+        "Braille",
+        "Wheelchair Accessible"
+      ],
+      "Ownership": [
+        "LGBTQ+ Owned",
+        "Woman Owned",
+        "Latino Owned",
+        "Black Owned",
+        "Asian American Owned"
+      ],
+      "Cuisine": [
+        "Italian"
+      ],
+      "Dietary Needs": [
+        "Kosher",
+        "Vegetarian Options",
+        "Vegan Options",
+        "Gluten-Free"
+      ],
+      "Additional Information": [
+        "Internet"
+      ],
+      "Cost": [
+        "$$$$"
+      ]
+    }
+  },
+  {
+    "title": "M. Wells",
+    "location": {
+      "lon": -73.94234589999999,
+      "lat": 40.7483767
+    },
+    "description": "The 70-seat, concrete-floored steakhouse has an open kitchen, from which all manner of grilled meats emerge. Playful touches, like the \"dogbowl\"\u2014an iced platter of a dozen oysters, six clams, lobster tail and an additional chef's-choice seafood pick\u2014dot the menu. \n",
+    "cuisine": "Eclectic",
+    "price": [
+      "$$$$",
+      "Gift Cards Available"
+    ],
+    "category": "other",
+    "rw_url": "https://www.nyctourism.com/restaurant-week/m-wells-steakhouse-long-island-city",
+    "tags": {
+      "Accessibility": [
+        "Wheelchair Accessible"
+      ],
+      "Ownership": [
+        "Woman Owned"
+      ],
+      "Cuisine": [
+        "Eclectic"
+      ],
+      "Dietary Needs": [
+        "Vegetarian Options"
+      ],
+      "Cost": [
+        "$$$$",
+        "Gift Cards Available"
+      ],
+      "Amenities": [
+        "Outdoor Dining"
+      ]
+    }
+  },
+  {
+    "title": "De Mole - Williamsburg",
+    "location": {
+      "lon": -73.9578342,
+      "lat": 40.7137814
+    },
+    "description": null,
+    "cuisine": "Mexican",
+    "price": [
+      "$$$"
+    ],
+    "category": "latin",
+    "rw_url": "https://www.nyctourism.com/restaurant-week/de-mole-williamsburg",
+    "tags": {
+      "Accessibility": [
+        "Wheelchair Accessible"
+      ],
+      "Ownership": [
+        "Latino Owned"
+      ],
+      "Cuisine": [
+        "Mexican"
+      ],
+      "Dietary Needs": [
+        "Vegetarian Options",
+        "Vegan Options",
+        "Gluten-Free"
+      ],
+      "Additional Information": [
+        "Free WiFi",
+        "Internet"
+      ],
+      "Cost": [
+        "$$$"
+      ],
+      "Type": [
+        "Bar",
+        "Cocktails"
+      ],
+      "Amenities": [
+        "Outdoor Dining"
+      ]
+    }
+  },
+  {
+    "title": "Archer & Goat",
+    "location": {
+      "lon": -73.9483891,
+      "lat": 40.8041434
+    },
+    "description": "An intimate global restaurant in Harlem serves impressive cocktails.",
+    "cuisine": "American (New)",
+    "price": [
+      "$$$"
+    ],
+    "category": "salad",
+    "rw_url": "https://www.nyctourism.com/restaurant-week/archer-goat",
+    "tags": {
+      "Accessibility": [
+        "Large Print",
+        "Wheelchair Accessible"
+      ],
+      "Ownership": [
+        "Woman Owned",
+        "Latino Owned",
+        "Asian American Owned"
+      ],
+      "Cuisine": [
+        "American (New)"
+      ],
+      "Dietary Needs": [
+        "Vegetarian Options",
+        "Vegan Options",
+        "Gluten-Free"
+      ],
+      "Cost": [
+        "$$$"
+      ],
+      "Amenities": [
+        "Outdoor Dining"
+      ]
+    }
+  },
+  {
+    "title": "5 Napkin Burger - Upper West Side",
+    "location": {
+      "lon": -73.9781361,
+      "lat": 40.7870473
+    },
+    "description": null,
+    "cuisine": "American (Traditional)",
+    "price": [
+      "$$$"
+    ],
+    "category": "burger",
+    "rw_url": "https://www.nyctourism.com/restaurant-week/5-napkin-burger-upper-west-side",
+    "tags": {
+      "Accessibility": [
+        "Wheelchair Accessible"
+      ],
+      "Cuisine": [
+        "American (Traditional)",
+        "Burgers"
+      ],
+      "Dietary Needs": [
+        "Vegetarian Options",
+        "Vegan Options",
+        "Gluten-Free"
+      ],
+      "Cost": [
+        "$$$"
+      ],
+      "Amenities": [
+        "Outdoor Dining"
+      ]
+    }
+  },
+  {
+    "title": "5 Napkin Burger - Hell's Kitchen",
+    "location": {
+      "lon": -73.9912338,
+      "lat": 40.759987
+    },
+    "description": "Bring a big appetite to Five Napkin Burger\u2014their house specialty burger is waiting for you, and it means business.",
+    "cuisine": "American (Traditional)",
+    "price": [
+      "$$",
+      "$$$"
+    ],
+    "category": "burger",
+    "rw_url": "https://www.nyctourism.com/restaurant-week/five-napkin-burger-hells-kitchen",
+    "tags": {
+      "Accessibility": [
+        "Wheelchair Accessible"
+      ],
+      "Cuisine": [
+        "American (Traditional)",
+        "Burgers"
+      ],
+      "Dietary Needs": [
+        "Vegetarian Options",
+        "Vegan Options",
+        "Gluten-Free"
+      ],
+      "Cost": [
+        "$$",
+        "$$$"
+      ],
+      "Amenities": [
+        "Outdoor Dining"
+      ]
+    }
+  },
+  {
+    "title": "Palo Santo",
+    "location": {
+      "lon": -73.9819584,
+      "lat": 40.6767933
+    },
+    "description": "At Palo Santo, you\u2019ll find chef Jacques Gautier\u2019s pan-Latin cooking in a Brooklyn brownstone.",
+    "cuisine": "Latin American",
+    "price": [
+      "$$$"
+    ],
+    "category": "latin",
+    "rw_url": "https://www.nyctourism.com/restaurant-week/palo-santo",
+    "tags": {
+      "Ownership": [
+        "Latino Owned"
+      ],
+      "Cuisine": [
+        "Latin American"
+      ],
+      "Dietary Needs": [
+        "Vegetarian Options",
+        "Vegan Options",
+        "Gluten-Free"
+      ],
+      "Cost": [
+        "$$$"
+      ]
+    }
+  },
+  {
+    "title": "Hoja Santa",
+    "location": {
+      "lon": -73.9142587,
+      "lat": 40.7637992
+    },
+    "description": "This Astoria restaurant that takes its name from the Mexican pepperleaf focuses on coastal Mexican cuisine.",
+    "cuisine": "Mexican",
+    "price": [
+      "$$$"
+    ],
+    "category": "latin",
+    "rw_url": "https://www.nyctourism.com/restaurant-week/hoja-santa-restaurant",
+    "tags": {
+      "Accessibility": [
+        "Wheelchair Accessible"
+      ],
+      "Ownership": [
+        "Latino Owned"
+      ],
+      "Cuisine": [
+        "Mexican"
+      ],
+      "Dietary Needs": [
+        "Vegetarian Options",
+        "Vegan Options",
+        "Gluten-Free"
+      ],
+      "Cost": [
+        "$$$"
+      ],
+      "Amenities": [
+        "Outdoor Dining"
+      ]
+    }
+  },
+  {
+    "title": "Longo Bros.",
+    "location": {
+      "lon": -73.9949195,
+      "lat": 40.7548453
+    },
+    "description": "Longo Bros. bar-restaurant puts an emphasis on their wine list but also have very modern cocktail offerings as well as an all-day menu of Italian favorites like antipasti, pasta and pizza.",
+    "cuisine": "Italian",
+    "price": [
+      "$$$"
+    ],
+    "category": "pizza",
+    "rw_url": "https://www.nyctourism.com/restaurant-week/longo-bros",
+    "tags": {
+      "Accessibility": [
+        "Wheelchair Accessible"
+      ],
+      "Cuisine": [
+        "Italian",
+        "Pizza"
+      ],
+      "Cost": [
+        "$$$"
+      ],
+      "Amenities": [
+        "Outdoor Dining"
+      ]
+    }
+  },
+  {
+    "title": "The Good Good NYC",
+    "location": {
+      "lon": -73.9422367,
+      "lat": 40.8013042
+    },
+    "description": "The Good Good is a warm and inviting cocktail bar and bistro.",
+    "cuisine": "Caribbean",
+    "price": null,
+    "category": "other",
+    "rw_url": "https://www.nyctourism.com/restaurant-week/the-good-good-nyc",
+    "tags": {
+      "Accessibility": [
+        "Wheelchair Accessible"
+      ],
+      "Ownership": [
+        "Woman Owned",
+        "Black Owned"
+      ],
+      "Cuisine": [
+        "Caribbean",
+        "Bars/Cocktails"
+      ],
+      "Dietary Needs": [
+        "Vegan Options"
+      ]
+    }
+  },
+  {
+    "title": "Home BX Steakhouse",
+    "location": {
+      "lon": -73.899943,
+      "lat": 40.8847613
+    },
+    "description": "Not a typical steakhouse, this restaurant in the Kingsbridge section of The Bronx offers a variety of steakhouse fare, along with Latin touches like empanadas and parillada.",
+    "cuisine": "Steakhouse",
+    "price": [
+      "$$$$"
+    ],
+    "category": "burger",
+    "rw_url": "https://www.nyctourism.com/restaurant-week/home-bx-steakhouse",
+    "tags": {
+      "Accessibility": [
+        "Wheelchair Accessible"
+      ],
+      "Cuisine": [
+        "Steakhouse"
+      ],
+      "Cost": [
+        "$$$$"
+      ]
+    }
+  },
+  {
+    "title": "Morgan's Brooklyn Barbecue",
+    "location": {
+      "lon": -73.9740726,
+      "lat": 40.6798958
+    },
+    "description": "Morgan's is Brooklyn through and through, a restaurant with a DIY edge that is as mindful of families with young kids as it is of the borough's bearded whiskey fanatics.\n",
+    "cuisine": "Barbecue",
+    "price": [
+      "$$",
+      "$$$",
+      "Gift Cards Available"
+    ],
+    "category": "burger",
+    "rw_url": "https://www.nyctourism.com/restaurant-week/morgans-brooklyn-barbecue-prospect-heights",
+    "tags": {
+      "Accessibility": [
+        "Wheelchair Accessible"
+      ],
+      "Cuisine": [
+        "Barbecue"
+      ],
+      "Cost": [
+        "$$",
+        "$$$",
+        "Gift Cards Available"
+      ],
+      "Amenities": [
+        "Outdoor Dining"
+      ]
+    }
+  },
+  {
+    "title": "BLVD Bistro",
+    "location": {
+      "lon": -73.9557515,
+      "lat": 40.8043626
+    },
+    "description": "Fantastic soul food restaurant BLVD Bistro in Harlem is run by husband and wife team Carlos and Markisha Swepson.",
+    "cuisine": "Soul Food / Southern",
+    "price": [
+      "$$$$"
+    ],
+    "category": "burger",
+    "rw_url": "https://www.nyctourism.com/restaurant-week/blvd-bistro",
+    "tags": {
+      "Accessibility": [
+        "Large Print",
+        "Wheelchair Accessible"
+      ],
+      "Ownership": [
+        "Woman Owned",
+        "Black Owned"
+      ],
+      "Cuisine": [
+        "Soul Food / Southern"
+      ],
+      "Dietary Needs": [
+        "Vegetarian Options",
+        "Gluten-Free"
+      ],
+      "Cost": [
+        "$$$$"
+      ]
+    }
+  },
+  {
+    "title": "Harlem Shake - Harlem",
+    "location": {
+      "lon": -73.9463378,
+      "lat": 40.80711
+    },
+    "description": "Harlem Shake, a neighborhood-oriented burger and milkshake joint embracing the Harlem of old, brings high-quality affordable fare to local residents and visitors alike.",
+    "cuisine": "American (Traditional)",
+    "price": [
+      "$$",
+      "Gift Cards Available"
+    ],
+    "category": "burger",
+    "rw_url": "https://www.nyctourism.com/restaurant-week/harlem-shake",
+    "tags": {
+      "Dietary Needs": [
+        "Organic",
+        "Vegetarian Options",
+        "Gluten-Free"
+      ],
+      "Accessibility": [
+        "Large Print",
+        "Braille",
+        "Wheelchair Accessible"
+      ],
+      "Ownership": [
+        "Woman Owned"
+      ],
+      "Cuisine": [
+        "American (Traditional)",
+        "Burgers"
+      ],
+      "Cost": [
+        "$$",
+        "Gift Cards Available"
+      ],
+      "Amenities": [
+        "Outdoor Dining"
+      ]
+    }
+  },
+  {
     "title": "Riverpark",
     "location": {
       "lon": -73.9739,
@@ -167,76 +1630,6 @@
       ],
       "Cost": [
         "$$$$"
-      ]
-    }
-  },
-  {
-    "title": "5 Napkin Burger - Upper West Side",
-    "location": {
-      "lon": -73.9781361,
-      "lat": 40.7870473
-    },
-    "description": null,
-    "cuisine": "American (Traditional)",
-    "price": [
-      "$$$"
-    ],
-    "category": "burger",
-    "rw_url": "https://www.nyctourism.com/restaurant-week/5-napkin-burger-upper-west-side",
-    "tags": {
-      "Accessibility": [
-        "Wheelchair Accessible"
-      ],
-      "Cuisine": [
-        "American (Traditional)",
-        "Burgers"
-      ],
-      "Dietary Needs": [
-        "Vegetarian Options",
-        "Vegan Options",
-        "Gluten-Free"
-      ],
-      "Cost": [
-        "$$$"
-      ],
-      "Amenities": [
-        "Outdoor Dining"
-      ]
-    }
-  },
-  {
-    "title": "5 Napkin Burger - Hell's Kitchen",
-    "location": {
-      "lon": -73.9912338,
-      "lat": 40.759987
-    },
-    "description": "Bring a big appetite to Five Napkin Burger\u2014their house specialty burger is waiting for you, and it means business.",
-    "cuisine": "American (Traditional)",
-    "price": [
-      "$$",
-      "$$$"
-    ],
-    "category": "burger",
-    "rw_url": "https://www.nyctourism.com/restaurant-week/five-napkin-burger-hells-kitchen",
-    "tags": {
-      "Accessibility": [
-        "Wheelchair Accessible"
-      ],
-      "Cuisine": [
-        "American (Traditional)",
-        "Burgers"
-      ],
-      "Dietary Needs": [
-        "Vegetarian Options",
-        "Vegan Options",
-        "Gluten-Free"
-      ],
-      "Cost": [
-        "$$",
-        "$$$"
-      ],
-      "Amenities": [
-        "Outdoor Dining"
       ]
     }
   },
@@ -654,34 +2047,6 @@
     }
   },
   {
-    "title": "Romeo's Italian Restaurant",
-    "location": {
-      "lon": -73.8910294,
-      "lat": 40.749183
-    },
-    "description": "Romeo's Italian Restaurant offers fine Italian dining in Jackson Heights, Queens.",
-    "cuisine": "Italian",
-    "price": [
-      "$$$$"
-    ],
-    "category": "pizza",
-    "rw_url": "https://www.nyctourism.com/restaurant-week/romeos-italian-restaurant",
-    "tags": {
-      "Accessibility": [
-        "Wheelchair Accessible"
-      ],
-      "Ownership": [
-        "Woman Owned"
-      ],
-      "Cuisine": [
-        "Italian"
-      ],
-      "Cost": [
-        "$$$$"
-      ]
-    }
-  },
-  {
     "title": "Chez Nick",
     "location": {
       "lon": -73.9452127,
@@ -778,31 +2143,6 @@
     }
   },
   {
-    "title": "Home BX Steakhouse",
-    "location": {
-      "lon": -73.899943,
-      "lat": 40.8847613
-    },
-    "description": "Not a typical steakhouse, this restaurant in the Kingsbridge section of The Bronx offers a variety of steakhouse fare, along with Latin touches like empanadas and parillada.",
-    "cuisine": "Steakhouse",
-    "price": [
-      "$$$$"
-    ],
-    "category": "burger",
-    "rw_url": "https://www.nyctourism.com/restaurant-week/home-bx-steakhouse",
-    "tags": {
-      "Accessibility": [
-        "Wheelchair Accessible"
-      ],
-      "Cuisine": [
-        "Steakhouse"
-      ],
-      "Cost": [
-        "$$$$"
-      ]
-    }
-  },
-  {
     "title": "The Long Room",
     "location": {
       "lon": -73.9843398,
@@ -836,48 +2176,6 @@
       ],
       "Type": [
         "Pub"
-      ]
-    }
-  },
-  {
-    "title": "Gupshup",
-    "location": {
-      "lon": -73.98764,
-      "lat": 40.7368777
-    },
-    "description": "A modern Indian fusion restaurant brings colorful dishes and decor to Gramercy.",
-    "cuisine": "Indian",
-    "price": [
-      "$$$",
-      "$$$$"
-    ],
-    "category": "other",
-    "rw_url": "https://www.nyctourism.com/restaurant-week/gupshup",
-    "tags": {
-      "Accessibility": [
-        "Large Print",
-        "Braille",
-        "Wheelchair Accessible"
-      ],
-      "Dietary Needs": [
-        "Halal",
-        "Vegetarian Options",
-        "Vegan Options",
-        "Gluten-Free"
-      ],
-      "Ownership": [
-        "Asian American Owned"
-      ],
-      "Cuisine": [
-        "Indian"
-      ],
-      "Cost": [
-        "$$$",
-        "$$$$"
-      ],
-      "Amenities": [
-        "Private Function Room(s)",
-        "Outdoor Dining"
       ]
     }
   },
@@ -945,37 +2243,6 @@
       ],
       "Cost": [
         "$$$$"
-      ]
-    }
-  },
-  {
-    "title": "Aromi",
-    "location": {
-      "lon": -73.9996712,
-      "lat": 40.6750294
-    },
-    "description": "Aromi is a restaurant and pizzeria with a mission to bring classic, authentic Italian recipes to Carroll Gardens in Brooklyn.",
-    "cuisine": "Italian",
-    "price": [
-      "$$$"
-    ],
-    "category": "pizza",
-    "rw_url": "https://www.nyctourism.com/restaurant-week/aromi",
-    "tags": {
-      "Accessibility": [
-        "Wheelchair Accessible"
-      ],
-      "Cuisine": [
-        "Italian",
-        "Pizza"
-      ],
-      "Dietary Needs": [
-        "Vegetarian Options",
-        "Vegan Options",
-        "Gluten-Free"
-      ],
-      "Cost": [
-        "$$$"
       ]
     }
   },
@@ -1796,39 +3063,6 @@
     }
   },
   {
-    "title": "Mas Tortilla",
-    "location": {
-      "lon": -73.8348158,
-      "lat": 40.7175843
-    },
-    "description": "Mas Tortilla is a Mexican restaurant, taquiera and cantina in Forest Hills, Queens.",
-    "cuisine": "Mexican",
-    "price": [
-      "$$$"
-    ],
-    "category": "latin",
-    "rw_url": "https://www.nyctourism.com/restaurant-week/mas-tortilla",
-    "tags": {
-      "Accessibility": [
-        "Large Print",
-        "Wheelchair Accessible"
-      ],
-      "Ownership": [
-        "Latino Owned"
-      ],
-      "Cuisine": [
-        "Mexican"
-      ],
-      "Dietary Needs": [
-        "Vegetarian Options",
-        "Gluten-Free"
-      ],
-      "Cost": [
-        "$$$"
-      ]
-    }
-  },
-  {
     "title": "Maiella",
     "location": {
       "lon": -73.9568372,
@@ -1922,42 +3156,6 @@
     }
   },
   {
-    "title": "M. Wells",
-    "location": {
-      "lon": -73.94234589999999,
-      "lat": 40.7483767
-    },
-    "description": "The 70-seat, concrete-floored steakhouse has an open kitchen, from which all manner of grilled meats emerge. Playful touches, like the \"dogbowl\"\u2014an iced platter of a dozen oysters, six clams, lobster tail and an additional chef's-choice seafood pick\u2014dot the menu. \n",
-    "cuisine": "Eclectic",
-    "price": [
-      "$$$$",
-      "Gift Cards Available"
-    ],
-    "category": "other",
-    "rw_url": "https://www.nyctourism.com/restaurant-week/m-wells-steakhouse-long-island-city",
-    "tags": {
-      "Accessibility": [
-        "Wheelchair Accessible"
-      ],
-      "Ownership": [
-        "Woman Owned"
-      ],
-      "Cuisine": [
-        "Eclectic"
-      ],
-      "Dietary Needs": [
-        "Vegetarian Options"
-      ],
-      "Cost": [
-        "$$$$",
-        "Gift Cards Available"
-      ],
-      "Amenities": [
-        "Outdoor Dining"
-      ]
-    }
-  },
-  {
     "title": "Laduree",
     "location": {
       "lon": -74.0025064,
@@ -1989,39 +3187,6 @@
       "Amenities": [
         "Private Function Room(s)",
         "Outdoor Dining"
-      ]
-    }
-  },
-  {
-    "title": "Mareluna - Flatiron",
-    "location": {
-      "lon": -73.9924493,
-      "lat": 40.7417031
-    },
-    "description": "Mareluna - Flatiron features an innovative take on Italian crowd favorites and multi-regional dishes, coupled with menu items expertly curated to highlight local meat and game offerings.",
-    "cuisine": "Italian",
-    "price": [
-      "$$$$"
-    ],
-    "category": "pizza",
-    "rw_url": "https://www.nyctourism.com/restaurant-week/mareluna-flatiron",
-    "tags": {
-      "Accessibility": [
-        "Wheelchair Accessible"
-      ],
-      "Ownership": [
-        "Woman Owned"
-      ],
-      "Cuisine": [
-        "Italian"
-      ],
-      "Dietary Needs": [
-        "Vegetarian Options",
-        "Vegan Options",
-        "Gluten-Free"
-      ],
-      "Cost": [
-        "$$$$"
       ]
     }
   },
@@ -2217,41 +3382,6 @@
     }
   },
   {
-    "title": "Evalyn\u2019s Tap House",
-    "location": {
-      "lon": -73.985532,
-      "lat": 40.681481
-    },
-    "description": "Experience the gastropub menu at Evalyn\u2019s Tap House, which is thoughtfully curated by their talented chef, Steffen Sander.",
-    "cuisine": "Gastropub",
-    "price": [
-      "$$$"
-    ],
-    "category": "burger",
-    "rw_url": "https://www.nyctourism.com/restaurant-week/evalyns-tap-house",
-    "tags": {
-      "Accessibility": [
-        "Large Print",
-        "Wheelchair Accessible"
-      ],
-      "Dietary Needs": [
-        "Vegetarian Options",
-        "Vegan Options",
-        "Gluten-Free"
-      ],
-      "Cost": [
-        "$$$"
-      ],
-      "Type": [
-        "Bar",
-        "Beer"
-      ],
-      "Cuisine": [
-        "Gastropub"
-      ]
-    }
-  },
-  {
     "title": "Gallow Green",
     "location": {
       "lon": -74.003805,
@@ -2400,36 +3530,6 @@
         "Vegetarian Options",
         "Vegan Options",
         "Gluten-Free"
-      ],
-      "Cost": [
-        "$$$$"
-      ]
-    }
-  },
-  {
-    "title": "La Baraka",
-    "location": {
-      "lon": -73.7342049,
-      "lat": 40.7722433
-    },
-    "description": "La Baraka is a Little Neck destination for the best French dining experience...with a touch of North Africa. ",
-    "cuisine": "French",
-    "price": [
-      "$$$$"
-    ],
-    "category": "bread",
-    "rw_url": "https://www.nyctourism.com/restaurant-week/la-baraka",
-    "tags": {
-      "Accessibility": [
-        "Large Print",
-        "Wheelchair Accessible"
-      ],
-      "Ownership": [
-        "Woman Owned",
-        "Latino Owned"
-      ],
-      "Cuisine": [
-        "French"
       ],
       "Cost": [
         "$$$$"
@@ -2812,7 +3912,6 @@
         "Outdoor Dining"
       ],
       "Genre": [
-        "Comedy",
         "Comedy"
       ],
       "Type": [
@@ -3160,34 +4259,6 @@
     }
   },
   {
-    "title": "The Good Good NYC",
-    "location": {
-      "lon": -73.9422367,
-      "lat": 40.8013042
-    },
-    "description": "The Good Good is a warm and inviting cocktail bar and bistro.",
-    "cuisine": "Caribbean",
-    "price": null,
-    "category": "other",
-    "rw_url": "https://www.nyctourism.com/restaurant-week/the-good-good-nyc",
-    "tags": {
-      "Accessibility": [
-        "Wheelchair Accessible"
-      ],
-      "Ownership": [
-        "Woman Owned",
-        "Black Owned"
-      ],
-      "Cuisine": [
-        "Caribbean",
-        "Bars/Cocktails"
-      ],
-      "Dietary Needs": [
-        "Vegan Options"
-      ]
-    }
-  },
-  {
     "title": "Masseria Dei Vini",
     "location": {
       "lon": -73.9857048,
@@ -3523,107 +4594,6 @@
     }
   },
   {
-    "title": "Mareluna - Soho",
-    "location": {
-      "lon": -74.0019013,
-      "lat": 40.726843
-    },
-    "description": "At Mareluna, restaurateurs Marco Britti and Andreea Milgram present a modern twist on traditional Italian cooking, featuring the best of every Italian region",
-    "cuisine": "Italian",
-    "price": [
-      "$$$$"
-    ],
-    "category": "pizza",
-    "rw_url": "https://www.nyctourism.com/restaurant-week/mareluna-soho",
-    "tags": {
-      "Accessibility": [
-        "Wheelchair Accessible"
-      ],
-      "Ownership": [
-        "Woman Owned"
-      ],
-      "Cuisine": [
-        "Italian"
-      ],
-      "Dietary Needs": [
-        "Vegetarian Options",
-        "Vegan Options",
-        "Gluten-Free"
-      ],
-      "Cost": [
-        "$$$$"
-      ]
-    }
-  },
-  {
-    "title": "Gabriel's Bar & Restaurant",
-    "location": {
-      "lon": -73.9757026,
-      "lat": 40.7651362
-    },
-    "description": "Craving Northern Italian food?",
-    "cuisine": "Italian",
-    "price": [
-      "$$$$"
-    ],
-    "category": "pizza",
-    "rw_url": "https://www.nyctourism.com/restaurant-week/gabriels-bar-restaurant",
-    "tags": {
-      "Accessibility": [
-        "Large Print",
-        "Braille",
-        "Wheelchair Accessible"
-      ],
-      "Ownership": [
-        "LGBTQ+ Owned",
-        "Woman Owned",
-        "Latino Owned",
-        "Black Owned",
-        "Asian American Owned"
-      ],
-      "Cuisine": [
-        "Italian"
-      ],
-      "Dietary Needs": [
-        "Kosher",
-        "Vegetarian Options",
-        "Vegan Options",
-        "Gluten-Free"
-      ],
-      "Additional Information": [
-        "Internet"
-      ],
-      "Cost": [
-        "$$$$"
-      ]
-    }
-  },
-  {
-    "title": "Le Rock",
-    "location": {
-      "lon": -73.9777136,
-      "lat": 40.7591523
-    },
-    "description": "Le Rock is a bustling French\u00a0Brasserie that serves\u00a0traditional French fare alongside some more unexpected offerings.",
-    "cuisine": "French",
-    "price": [
-      "$$$$"
-    ],
-    "category": "bread",
-    "rw_url": "https://www.nyctourism.com/restaurant-week/le-rock",
-    "tags": {
-      "Accessibility": [
-        "Wheelchair Accessible"
-      ],
-      "Cuisine": [
-        "French"
-      ],
-      "Cost": [
-        "$$$$"
-      ]
-    }
-  },
-  {
     "title": "Cocotazo",
     "location": {
       "lon": -73.9445796,
@@ -3648,41 +4618,6 @@
       ],
       "Cuisine": [
         "Puerto Rican"
-      ],
-      "Cost": [
-        "$$$"
-      ]
-    }
-  },
-  {
-    "title": "Jungly",
-    "location": {
-      "lon": -73.9503586,
-      "lat": 40.7440197
-    },
-    "description": "Staying true to the essence of New York City, Jungly brings to life flavors from across the globe with an American touch.",
-    "cuisine": "American (New)",
-    "price": [
-      "$$$"
-    ],
-    "category": "salad",
-    "rw_url": "https://www.nyctourism.com/restaurant-week/jungly",
-    "tags": {
-      "Accessibility": [
-        "Large Print",
-        "Wheelchair Accessible"
-      ],
-      "Ownership": [
-        "Asian American Owned"
-      ],
-      "Cuisine": [
-        "American (New)",
-        "Eclectic"
-      ],
-      "Dietary Needs": [
-        "Vegetarian Options",
-        "Vegan Options",
-        "Gluten-Free"
       ],
       "Cost": [
         "$$$"
@@ -3851,31 +4786,6 @@
     ],
     "category": "latin",
     "rw_url": "https://www.nyctourism.com/restaurant-week/boqueria-west-40th-st",
-    "tags": {
-      "Accessibility": [
-        "Wheelchair Accessible"
-      ],
-      "Cuisine": [
-        "Spanish"
-      ],
-      "Cost": [
-        "$$$"
-      ]
-    }
-  },
-  {
-    "title": "Boqueria - Soho",
-    "location": {
-      "lon": -74.0021707,
-      "lat": 40.7248676
-    },
-    "description": "Seamus Mullen was a well-recognized chef before he became a competitor on The Next Iron Chef, but it hasn\u2019t hurt the business at his bustling, cozy tapas restaurant in SoHo.",
-    "cuisine": "Spanish",
-    "price": [
-      "$$$"
-    ],
-    "category": "latin",
-    "rw_url": "https://www.nyctourism.com/restaurant-week/boqueria-soho",
     "tags": {
       "Accessibility": [
         "Wheelchair Accessible"
@@ -4771,45 +5681,6 @@
     }
   },
   {
-    "title": "Archer & Goat",
-    "location": {
-      "lon": -73.9483891,
-      "lat": 40.8041434
-    },
-    "description": "An intimate global restaurant in Harlem serves impressive cocktails.",
-    "cuisine": "American (New)",
-    "price": [
-      "$$$"
-    ],
-    "category": "salad",
-    "rw_url": "https://www.nyctourism.com/restaurant-week/archer-goat",
-    "tags": {
-      "Accessibility": [
-        "Large Print",
-        "Wheelchair Accessible"
-      ],
-      "Ownership": [
-        "Woman Owned",
-        "Latino Owned",
-        "Asian American Owned"
-      ],
-      "Cuisine": [
-        "American (New)"
-      ],
-      "Dietary Needs": [
-        "Vegetarian Options",
-        "Vegan Options",
-        "Gluten-Free"
-      ],
-      "Cost": [
-        "$$$"
-      ],
-      "Amenities": [
-        "Outdoor Dining"
-      ]
-    }
-  },
-  {
     "title": "Il Sole",
     "location": {
       "lon": -73.9276251,
@@ -5591,36 +6462,6 @@
     }
   },
   {
-    "title": "Palo Santo",
-    "location": {
-      "lon": -73.9819584,
-      "lat": 40.6767933
-    },
-    "description": "At Palo Santo, you\u2019ll find chef Jacques Gautier\u2019s pan-Latin cooking in a Brooklyn brownstone.",
-    "cuisine": "Latin American",
-    "price": [
-      "$$$"
-    ],
-    "category": "latin",
-    "rw_url": "https://www.nyctourism.com/restaurant-week/palo-santo",
-    "tags": {
-      "Ownership": [
-        "Latino Owned"
-      ],
-      "Cuisine": [
-        "Latin American"
-      ],
-      "Dietary Needs": [
-        "Vegetarian Options",
-        "Vegan Options",
-        "Gluten-Free"
-      ],
-      "Cost": [
-        "$$$"
-      ]
-    }
-  },
-  {
     "title": "Benjamin Prime",
     "location": {
       "lon": -73.9797149,
@@ -6216,44 +7057,6 @@
     }
   },
   {
-    "title": "Addictive NYC",
-    "location": {
-      "lon": -73.9800332,
-      "lat": 40.7565859
-    },
-    "description": "Addictive NYC is a tapas bar, wine bar and restaurant that is filled with delicious wines and dishes inspired by their love of vineyards terroir around the world as well as Mediterranean flavors.",
-    "cuisine": "Mediterranean",
-    "price": [
-      "$$$"
-    ],
-    "category": "kebab",
-    "rw_url": "https://www.nyctourism.com/restaurant-week/addictive-nyc",
-    "tags": {
-      "Ownership": [
-        "LGBTQ+ Owned",
-        "Latino Owned",
-        "Asian American Owned"
-      ],
-      "Cuisine": [
-        "Mediterranean",
-        "Spanish",
-        "American (New)"
-      ],
-      "Dietary Needs": [
-        "Vegetarian Options",
-        "Vegan Options",
-        "Gluten-Free"
-      ],
-      "Cost": [
-        "$$$"
-      ],
-      "Type": [
-        "Bar",
-        "Wine"
-      ]
-    }
-  },
-  {
     "title": "Marta",
     "location": {
       "lon": -73.9846584,
@@ -6740,44 +7543,6 @@
     }
   },
   {
-    "title": "Queens Bully",
-    "location": {
-      "lon": -73.8354587,
-      "lat": 40.7170196
-    },
-    "description": "This Forest Hills gastropub and barbecue joint pays homage to flavors around its home borough.",
-    "cuisine": "Barbecue",
-    "price": [
-      "$$$"
-    ],
-    "category": "burger",
-    "rw_url": "https://www.nyctourism.com/restaurant-week/queens-bully",
-    "tags": {
-      "Accessibility": [
-        "Large Print",
-        "Wheelchair Accessible"
-      ],
-      "Ownership": [
-        "Asian American Owned"
-      ],
-      "Cuisine": [
-        "Barbecue",
-        "Gastropub"
-      ],
-      "Dietary Needs": [
-        "Vegetarian Options",
-        "Vegan Options",
-        "Gluten-Free"
-      ],
-      "Cost": [
-        "$$$"
-      ],
-      "Amenities": [
-        "Outdoor Dining"
-      ]
-    }
-  },
-  {
     "title": "Quality Eats - West Village",
     "location": {
       "lon": -74.0000589,
@@ -6970,41 +7735,6 @@
       ],
       "Cost": [
         "$$$$$"
-      ]
-    }
-  },
-  {
-    "title": "Broadway Lounge",
-    "location": {
-      "lon": -73.9858202,
-      "lat": 40.7585862
-    },
-    "description": "With spectacular views of Times Square and sophisticated and comfortable d\u00e9cor, the all-new Broadway Lounge, located in the New York Marriott Marquis, is perfect for cocktails or pre-theater snacks above Times Square.",
-    "cuisine": "American (New)",
-    "price": [
-      "$$$"
-    ],
-    "category": "salad",
-    "rw_url": "https://www.nyctourism.com/restaurant-week/broadway-lounge",
-    "tags": {
-      "Accessibility": [
-        "Wheelchair Accessible"
-      ],
-      "Cuisine": [
-        "American (New)"
-      ],
-      "Dietary Needs": [
-        "Vegetarian Options",
-        "Gluten-Free"
-      ],
-      "Additional Information": [
-        "Internet"
-      ],
-      "Cost": [
-        "$$$"
-      ],
-      "Type": [
-        "Live Music"
       ]
     }
   },
@@ -7679,43 +8409,6 @@
       ],
       "Cost": [
         "$$$$"
-      ]
-    }
-  },
-  {
-    "title": "L'Artista Italian Kitchen & Bar",
-    "location": {
-      "lon": -73.9486455,
-      "lat": 40.8243572
-    },
-    "description": "L'Artista serves a seasonal menu of Southern Italian cuisine from Turin-born executive chef/partner German Rizzo, while owner/Partner Daniel Schnyder, a Swiss American composer saxophonist and flutist, curates a live music series.",
-    "cuisine": "Italian",
-    "price": [
-      "$$$"
-    ],
-    "category": "pizza",
-    "rw_url": "https://www.nyctourism.com/restaurant-week/lartista-italian-kitchen-bar",
-    "tags": {
-      "Accessibility": [
-        "Large Print",
-        "Braille",
-        "Wheelchair Accessible"
-      ],
-      "Cuisine": [
-        "Italian"
-      ],
-      "Dietary Needs": [
-        "Gluten-Free"
-      ],
-      "Additional Information": [
-        "Free WiFi",
-        "Internet"
-      ],
-      "Cost": [
-        "$$$"
-      ],
-      "Type": [
-        "Live Music"
       ]
     }
   },
@@ -8515,40 +9208,6 @@
       "Amenities": [
         "Private Function Room(s)",
         "Outdoor Dining"
-      ]
-    }
-  },
-  {
-    "title": "BLVD Bistro",
-    "location": {
-      "lon": -73.9557515,
-      "lat": 40.8043626
-    },
-    "description": "Fantastic soul food restaurant BLVD Bistro in Harlem is run by husband and wife team Carlos and Markisha Swepson.",
-    "cuisine": "Soul Food / Southern",
-    "price": [
-      "$$$$"
-    ],
-    "category": "burger",
-    "rw_url": "https://www.nyctourism.com/restaurant-week/blvd-bistro",
-    "tags": {
-      "Accessibility": [
-        "Large Print",
-        "Wheelchair Accessible"
-      ],
-      "Ownership": [
-        "Woman Owned",
-        "Black Owned"
-      ],
-      "Cuisine": [
-        "Soul Food / Southern"
-      ],
-      "Dietary Needs": [
-        "Vegetarian Options",
-        "Gluten-Free"
-      ],
-      "Cost": [
-        "$$$$"
       ]
     }
   },
@@ -10531,35 +11190,6 @@
     }
   },
   {
-    "title": "Carlotto",
-    "location": {
-      "lon": -73.9876492,
-      "lat": 40.7374367
-    },
-    "description": "Under the leadership of executive chef Andy Kitko and his culinary team, Carlotto\u2019s menu honors Italy\u2019s most celebrated regions.",
-    "cuisine": "Italian",
-    "price": [
-      "$$$$"
-    ],
-    "category": "pizza",
-    "rw_url": "https://www.nyctourism.com/restaurant-week/carlotto",
-    "tags": {
-      "Accessibility": [
-        "Wheelchair Accessible"
-      ],
-      "Cuisine": [
-        "Italian"
-      ],
-      "Dietary Needs": [
-        "Vegetarian Options",
-        "Gluten-Free"
-      ],
-      "Cost": [
-        "$$$$"
-      ]
-    }
-  },
-  {
     "title": "Onieal's Grand Street",
     "location": {
       "lon": -73.9978553,
@@ -10655,38 +11285,6 @@
       ],
       "Amenities": [
         "Outdoor Dining"
-      ]
-    }
-  },
-  {
-    "title": "La Avenida",
-    "location": {
-      "lon": -73.9359592,
-      "lat": 40.7957229
-    },
-    "description": "La Avenida is Ivan Velazquez's Latin-infuenced neighborhood restaurant and bar in East Harlem.\n\n",
-    "cuisine": "Latin American",
-    "price": [
-      "$$$"
-    ],
-    "category": "latin",
-    "rw_url": "https://www.nyctourism.com/restaurant-week/la-avenida",
-    "tags": {
-      "Accessibility": [
-        "Wheelchair Accessible"
-      ],
-      "Ownership": [
-        "Woman Owned",
-        "Latino Owned"
-      ],
-      "Cuisine": [
-        "Latin American"
-      ],
-      "Dietary Needs": [
-        "Vegetarian Options"
-      ],
-      "Cost": [
-        "$$$"
       ]
     }
   },
@@ -11366,40 +11964,6 @@
       "Amenities": [
         "Private Function Room(s)",
         "Outdoor Dining"
-      ]
-    }
-  },
-  {
-    "title": "Mikhuy Peruvian Restaurant",
-    "location": {
-      "lon": -73.9913772,
-      "lat": 40.667646
-    },
-    "description": "Mikhuy Peruvian Restaurant is a minority-, woman- and family-owned restaurant serving traditional Peruvian cuisine in the Gowanus section of Brooklyn.",
-    "cuisine": "Peruvian",
-    "price": [
-      "$$$"
-    ],
-    "category": "latin",
-    "rw_url": "https://www.nyctourism.com/restaurant-week/mikhuy-peruvian-restaurant",
-    "tags": {
-      "Accessibility": [
-        "Large Print",
-        "Wheelchair Accessible"
-      ],
-      "Ownership": [
-        "Woman Owned",
-        "Latino Owned"
-      ],
-      "Cuisine": [
-        "Peruvian"
-      ],
-      "Additional Information": [
-        "Free WiFi",
-        "Internet"
-      ],
-      "Cost": [
-        "$$$"
       ]
     }
   },
@@ -13091,35 +13655,6 @@
     }
   },
   {
-    "title": "Oceans",
-    "location": {
-      "lon": -73.9879206,
-      "lat": 40.7374674
-    },
-    "description": "With a name like Oceans, it\u2019s no surprise to learn that this restaurant\u2019s menu is inspired by fresh catches from the Atlantic, Pacific and Mediterranean.",
-    "cuisine": "Seafood",
-    "price": [
-      "$$$$"
-    ],
-    "category": "other",
-    "rw_url": "https://www.nyctourism.com/restaurant-week/oceans",
-    "tags": {
-      "Accessibility": [
-        "Wheelchair Accessible"
-      ],
-      "Cuisine": [
-        "Seafood"
-      ],
-      "Dietary Needs": [
-        "Vegetarian Options",
-        "Gluten-Free"
-      ],
-      "Cost": [
-        "$$$$"
-      ]
-    }
-  },
-  {
     "title": "Maison Pickle",
     "location": {
       "lon": -73.9781361,
@@ -13154,42 +13689,6 @@
       ],
       "Amenities": [
         "Private Function Room(s)",
-        "Outdoor Dining"
-      ]
-    }
-  },
-  {
-    "title": "Hoja Santa",
-    "location": {
-      "lon": -73.9142587,
-      "lat": 40.7637992
-    },
-    "description": "This Astoria restaurant that takes its name from the Mexican pepperleaf focuses on coastal Mexican cuisine.",
-    "cuisine": "Mexican",
-    "price": [
-      "$$$"
-    ],
-    "category": "latin",
-    "rw_url": "https://www.nyctourism.com/restaurant-week/hoja-santa-restaurant",
-    "tags": {
-      "Accessibility": [
-        "Wheelchair Accessible"
-      ],
-      "Ownership": [
-        "Latino Owned"
-      ],
-      "Cuisine": [
-        "Mexican"
-      ],
-      "Dietary Needs": [
-        "Vegetarian Options",
-        "Vegan Options",
-        "Gluten-Free"
-      ],
-      "Cost": [
-        "$$$"
-      ],
-      "Amenities": [
         "Outdoor Dining"
       ]
     }
@@ -13717,47 +14216,6 @@
       ],
       "Cost": [
         "$$$$"
-      ]
-    }
-  },
-  {
-    "title": "Harlem Shake - Harlem",
-    "location": {
-      "lon": -73.9463378,
-      "lat": 40.80711
-    },
-    "description": "Harlem Shake, a neighborhood-oriented burger and milkshake joint embracing the Harlem of old, brings high-quality affordable fare to local residents and visitors alike.",
-    "cuisine": "American (Traditional)",
-    "price": [
-      "$$",
-      "Gift Cards Available"
-    ],
-    "category": "burger",
-    "rw_url": "https://www.nyctourism.com/restaurant-week/harlem-shake",
-    "tags": {
-      "Dietary Needs": [
-        "Organic",
-        "Vegetarian Options",
-        "Gluten-Free"
-      ],
-      "Accessibility": [
-        "Large Print",
-        "Braille",
-        "Wheelchair Accessible"
-      ],
-      "Ownership": [
-        "Woman Owned"
-      ],
-      "Cuisine": [
-        "American (Traditional)",
-        "Burgers"
-      ],
-      "Cost": [
-        "$$",
-        "Gift Cards Available"
-      ],
-      "Amenities": [
-        "Outdoor Dining"
       ]
     }
   },
@@ -15421,44 +15879,6 @@
     }
   },
   {
-    "title": "EZ Paella & Tapas",
-    "location": {
-      "lon": -73.9885866,
-      "lat": 40.7635547
-    },
-    "description": "The restaurant serves tapas, wine, sangria and paella in a casual ambiance with nice music and great food.",
-    "cuisine": "Spanish",
-    "price": [
-      "$$$"
-    ],
-    "category": "latin",
-    "rw_url": "https://www.nyctourism.com/restaurant-week/ez-paella-tapas",
-    "tags": {
-      "Accessibility": [
-        "Large Print",
-        "Wheelchair Accessible"
-      ],
-      "Ownership": [
-        "Woman Owned",
-        "Latino Owned"
-      ],
-      "Cuisine": [
-        "Spanish"
-      ],
-      "Dietary Needs": [
-        "Vegetarian Options",
-        "Vegan Options",
-        "Gluten-Free"
-      ],
-      "Additional Information": [
-        "Free WiFi"
-      ],
-      "Cost": [
-        "$$$"
-      ]
-    }
-  },
-  {
     "title": "Empire Steak House - West 54th Street",
     "location": {
       "lon": -73.9830568,
@@ -15561,35 +15981,6 @@
       ],
       "Cost": [
         "$$$$"
-      ]
-    }
-  },
-  {
-    "title": "Longo Bros.",
-    "location": {
-      "lon": -73.9949195,
-      "lat": 40.7548453
-    },
-    "description": "Longo Bros. bar-restaurant puts an emphasis on their wine list but also have very modern cocktail offerings as well as an all-day menu of Italian favorites like antipasti, pasta and pizza.",
-    "cuisine": "Italian",
-    "price": [
-      "$$$"
-    ],
-    "category": "pizza",
-    "rw_url": "https://www.nyctourism.com/restaurant-week/longo-bros",
-    "tags": {
-      "Accessibility": [
-        "Wheelchair Accessible"
-      ],
-      "Cuisine": [
-        "Italian",
-        "Pizza"
-      ],
-      "Cost": [
-        "$$$"
-      ],
-      "Amenities": [
-        "Outdoor Dining"
       ]
     }
   },
@@ -15762,43 +16153,6 @@
       ],
       "Type": [
         "Wine"
-      ]
-    }
-  },
-  {
-    "title": "Alice",
-    "location": {
-      "lon": -73.9986702,
-      "lat": 40.7370456
-    },
-    "description": "Alice is a sophisticated, intimate Italian seafood and lobster bar set in the basement of a historic brownstone.",
-    "cuisine": "Italian",
-    "price": [
-      "$$$$"
-    ],
-    "category": "pizza",
-    "rw_url": "https://www.nyctourism.com/restaurant-week/alice",
-    "tags": {
-      "Accessibility": [
-        "Wheelchair Accessible"
-      ],
-      "Ownership": [
-        "Latino Owned"
-      ],
-      "Cuisine": [
-        "Italian",
-        "Seafood"
-      ],
-      "Dietary Needs": [
-        "Vegetarian Options",
-        "Vegan Options",
-        "Gluten-Free"
-      ],
-      "Cost": [
-        "$$$$"
-      ],
-      "Amenities": [
-        "Outdoor Dining"
       ]
     }
   },
@@ -16367,35 +16721,6 @@
     }
   },
   {
-    "title": "Esme",
-    "location": {
-      "lon": -73.9550215,
-      "lat": 40.7331944
-    },
-    "description": "At Esme, seasonal cocktails pair with American small plates in a bustling space with modern touches, a full bar and a covered garden space.",
-    "cuisine": "American (New)",
-    "price": [
-      "$$$$"
-    ],
-    "category": "salad",
-    "rw_url": "https://www.nyctourism.com/restaurant-week/esme",
-    "tags": {
-      "Accessibility": [
-        "Wheelchair Accessible"
-      ],
-      "Cuisine": [
-        "American (New)"
-      ],
-      "Dietary Needs": [
-        "Vegetarian Options",
-        "Gluten-Free"
-      ],
-      "Cost": [
-        "$$$$"
-      ]
-    }
-  },
-  {
     "title": "Rosa Mexicano - Union Square",
     "location": {
       "lon": -73.9907684,
@@ -16508,86 +16833,6 @@
       ],
       "Cost": [
         "$$$$"
-      ],
-      "Amenities": [
-        "Outdoor Dining"
-      ]
-    }
-  },
-  {
-    "title": "Casa Limone",
-    "location": {
-      "lon": -73.9766059,
-      "lat": 40.7573268
-    },
-    "description": "Casa Limone offers the flavors, wines and spirits of Michelin-starred chef Antonio Salvatore\u2019s upbringing in Basilicata and neighboring regions.",
-    "cuisine": "Italian",
-    "price": [
-      "$$$$"
-    ],
-    "category": "pizza",
-    "rw_url": "https://www.nyctourism.com/restaurant-week/casa-limone",
-    "tags": {
-      "Accessibility": [
-        "Large Print",
-        "Braille",
-        "Wheelchair Accessible"
-      ],
-      "Cuisine": [
-        "Italian"
-      ],
-      "Dietary Needs": [
-        "Vegetarian Options",
-        "Vegan Options",
-        "Gluten-Free"
-      ],
-      "Additional Information": [
-        "Free WiFi",
-        "Internet"
-      ],
-      "Cost": [
-        "$$$$"
-      ]
-    }
-  },
-  {
-    "title": "De Mole - Williamsburg",
-    "location": {
-      "lon": -73.9578342,
-      "lat": 40.7137814
-    },
-    "description": null,
-    "cuisine": "Mexican",
-    "price": [
-      "$$$"
-    ],
-    "category": "latin",
-    "rw_url": "https://www.nyctourism.com/restaurant-week/de-mole-williamsburg",
-    "tags": {
-      "Accessibility": [
-        "Wheelchair Accessible"
-      ],
-      "Ownership": [
-        "Latino Owned"
-      ],
-      "Cuisine": [
-        "Mexican"
-      ],
-      "Dietary Needs": [
-        "Vegetarian Options",
-        "Vegan Options",
-        "Gluten-Free"
-      ],
-      "Additional Information": [
-        "Free WiFi",
-        "Internet"
-      ],
-      "Cost": [
-        "$$$"
-      ],
-      "Type": [
-        "Bar",
-        "Cocktails"
       ],
       "Amenities": [
         "Outdoor Dining"
@@ -16797,38 +17042,6 @@
     }
   },
   {
-    "title": "Flava's Restaurant and Lounge",
-    "location": {
-      "lon": -73.9114978,
-      "lat": 40.8219488
-    },
-    "description": "Diners feel the tropical breeze and experience yard-man and yard-woman flava style cooking.",
-    "cuisine": "Jamaican",
-    "price": [
-      "$$$"
-    ],
-    "category": "other",
-    "rw_url": "https://www.nyctourism.com/restaurant-week/flavas-restaurant-and-lounge",
-    "tags": {
-      "Accessibility": [
-        "Large Print",
-        "Wheelchair Accessible"
-      ],
-      "Ownership": [
-        "Black Owned"
-      ],
-      "Dietary Needs": [
-        "Vegan Options"
-      ],
-      "Cost": [
-        "$$$"
-      ],
-      "Cuisine": [
-        "Jamaican"
-      ]
-    }
-  },
-  {
     "title": "Gallaghers Steakhouse",
     "location": {
       "lon": -73.9838826,
@@ -16893,44 +17106,6 @@
       ],
       "Amenities": [
         "Outdoor Dining"
-      ]
-    }
-  },
-  {
-    "title": "Gowanus Gardens",
-    "location": {
-      "lon": -73.9839919,
-      "lat": 40.6765065
-    },
-    "description": "Find small plates and backyard space at this neighborhood bar. ",
-    "cuisine": "Gastropub",
-    "price": [
-      "$$$"
-    ],
-    "category": "burger",
-    "rw_url": "https://www.nyctourism.com/restaurant-week/gowanus-gardens",
-    "tags": {
-      "Accessibility": [
-        "Wheelchair Accessible"
-      ],
-      "Ownership": [
-        "Woman Owned"
-      ],
-      "Dietary Needs": [
-        "Vegetarian Options",
-        "Vegan Options",
-        "Gluten-Free"
-      ],
-      "Cost": [
-        "$$$"
-      ],
-      "Type": [
-        "Bar",
-        "Cocktails",
-        "Beer"
-      ],
-      "Cuisine": [
-        "Gastropub"
       ]
     }
   },
@@ -17045,40 +17220,6 @@
       ],
       "Amenities": [
         "Outdoor Dining"
-      ]
-    }
-  },
-  {
-    "title": "Bar Tulix",
-    "location": {
-      "lon": -73.9979265,
-      "lat": 40.7256816
-    },
-    "description": "Bar Tulix serves up fresh crudos, seafood tostadas, whole fish in masa batter and other Baja California specialties.",
-    "cuisine": "Mexican",
-    "price": [
-      "$$$$"
-    ],
-    "category": "latin",
-    "rw_url": "https://www.nyctourism.com/restaurant-week/bar-tulix",
-    "tags": {
-      "Accessibility": [
-        "Large Print",
-        "Wheelchair Accessible"
-      ],
-      "Cuisine": [
-        "Mexican",
-        "Seafood"
-      ],
-      "Dietary Needs": [
-        "Gluten-Free"
-      ],
-      "Cost": [
-        "$$$$"
-      ],
-      "Type": [
-        "Bar",
-        "Cocktails"
       ]
     }
   },
@@ -17444,41 +17585,6 @@
     }
   },
   {
-    "title": "Maggie's Place",
-    "location": {
-      "lon": -73.9771145,
-      "lat": 40.7562972
-    },
-    "description": "Family-owned since 1974, Maggie's Place serves up shepherd's pie, chicken pot pie, fish & chips, burgers and pub fare alongside a selection of wine and beer.",
-    "cuisine": "American (New)",
-    "price": [
-      "$$$"
-    ],
-    "category": "salad",
-    "rw_url": "https://www.nyctourism.com/restaurant-week/maggies-place",
-    "tags": {
-      "Accessibility": [
-        "Wheelchair Accessible"
-      ],
-      "Cuisine": [
-        "American (New)",
-        "American (Traditional)",
-        "Irish"
-      ],
-      "Dietary Needs": [
-        "Vegetarian Options",
-        "Gluten-Free"
-      ],
-      "Cost": [
-        "$$$"
-      ],
-      "Type": [
-        "Bar",
-        "Pub"
-      ]
-    }
-  },
-  {
     "title": "Maisonetta",
     "location": {
       "lon": -73.9291374356,
@@ -17600,38 +17706,6 @@
       ],
       "Cost": [
         "$$$"
-      ],
-      "Amenities": [
-        "Outdoor Dining"
-      ]
-    }
-  },
-  {
-    "title": "Morgan's Brooklyn Barbecue",
-    "location": {
-      "lon": -73.9740726,
-      "lat": 40.6798958
-    },
-    "description": "Morgan's is Brooklyn through and through, a restaurant with a DIY edge that is as mindful of families with young kids as it is of the borough's bearded whiskey fanatics.\n",
-    "cuisine": "Barbecue",
-    "price": [
-      "$$",
-      "$$$",
-      "Gift Cards Available"
-    ],
-    "category": "burger",
-    "rw_url": "https://www.nyctourism.com/restaurant-week/morgans-brooklyn-barbecue-prospect-heights",
-    "tags": {
-      "Accessibility": [
-        "Wheelchair Accessible"
-      ],
-      "Cuisine": [
-        "Barbecue"
-      ],
-      "Cost": [
-        "$$",
-        "$$$",
-        "Gift Cards Available"
       ],
       "Amenities": [
         "Outdoor Dining"
@@ -18062,43 +18136,6 @@
     }
   },
   {
-    "title": "La Barra",
-    "location": {
-      "lon": -74.0013517,
-      "lat": 40.752594
-    },
-    "description": "At La Barra, you can explore beloved dishes from numerous tapas bars all around Spain.",
-    "cuisine": "Spanish",
-    "price": [
-      "$$$"
-    ],
-    "category": "latin",
-    "rw_url": "https://www.nyctourism.com/restaurant-week/la-barra",
-    "tags": {
-      "Accessibility": [
-        "Wheelchair Accessible"
-      ],
-      "Ownership": [
-        "Latino Owned"
-      ],
-      "Cuisine": [
-        "Spanish"
-      ],
-      "Cost": [
-        "$$$"
-      ],
-      "Genre": [
-        "Kid-Friendly"
-      ],
-      "Additional Information": [
-        "Free WiFi"
-      ],
-      "Type": [
-        "Live Music"
-      ]
-    }
-  },
-  {
     "title": "Spanish Diner",
     "location": {
       "lon": -74.0013517,
@@ -18231,76 +18268,6 @@
       ],
       "Experience": [
         "Family"
-      ]
-    }
-  },
-  {
-    "title": "Au Jus - Upper West Side",
-    "location": {
-      "lon": -73.9705919,
-      "lat": 40.796848
-    },
-    "description": null,
-    "cuisine": "Barbecue",
-    "price": [
-      "$$$"
-    ],
-    "category": "burger",
-    "rw_url": "https://www.nyctourism.com/restaurant-week/au-jus-upper-west-side",
-    "tags": {
-      "Accessibility": [
-        "Wheelchair Accessible"
-      ],
-      "Cuisine": [
-        "Barbecue"
-      ],
-      "Dietary Needs": [
-        "Vegetarian Options",
-        "Vegan Options",
-        "Gluten-Free"
-      ],
-      "Cost": [
-        "$$$"
-      ],
-      "Amenities": [
-        "Outdoor Dining"
-      ]
-    }
-  },
-  {
-    "title": "Barbalu Bklyn",
-    "location": {
-      "lon": -73.9910146,
-      "lat": 40.6867438
-    },
-    "description": "This Boerum Hill Italian restaurant is Stefano Barbagallo and Adriana Luque's second, following their Seaport location that opened in 2013.",
-    "cuisine": "Italian",
-    "price": [
-      "$$$$"
-    ],
-    "category": "pizza",
-    "rw_url": "https://www.nyctourism.com/restaurant-week/barbalu-bklyn",
-    "tags": {
-      "Dietary Needs": [
-        "Organic",
-        "Vegetarian Options",
-        "Gluten-Free"
-      ],
-      "Accessibility": [
-        "Wheelchair Accessible"
-      ],
-      "Cuisine": [
-        "Italian"
-      ],
-      "Additional Information": [
-        "Free WiFi",
-        "Internet"
-      ],
-      "Cost": [
-        "$$$$"
-      ],
-      "Amenities": [
-        "Outdoor Dining"
       ]
     }
   }
